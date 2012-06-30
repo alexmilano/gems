@@ -14,6 +14,9 @@
 	<view name="update-profile" url="generated/update-profile.php" class="profileDelegate">
 		<getter destination="entity">getprofile</getter>
 	</view>
+	<view name="show-profile" url="generated/show-profile.php" class="profileDelegate">
+		<getter destination="entity">getprofile</getter>
+	</view>
 	<view name="add-user" url="generated/add-user.php" class="userDelegate"/>
 	<view name="list-user" url="generated/list-user.php" class="userDelegate">
 		<getter destination="listuser">listRecords</getter>
@@ -21,4 +24,5 @@
 	<view name="update-user" url="generated/update-user.php" class="userDelegate">
 		<getter destination="entity">getuser</getter>
 	</view>
+	
 </views>

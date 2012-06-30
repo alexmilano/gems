@@ -126,7 +126,6 @@
 				$id = $validator->getVar("id");
 				$status = $validator->getVar("status");
 				$record = Doctrine::getTable("profile")->find($id);
-				
 				$user = Doctrine::getTable("user")->find($record->user_id);
 		    	$user->status = $status;
 				$record->status = $status;

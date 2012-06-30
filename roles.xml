@@ -8,6 +8,7 @@
 		<view read='true' edit='true'>forgot</view>
 		<view read='true' edit='true'>add-profile</view>
 		<view read='true' edit='true'>list-profile</view>
+		<view read='true' edit='true'>show-profile</view>
 		
 	</role>
 	<role name='admin' >

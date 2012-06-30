@@ -5,7 +5,7 @@
 	<form action="crud.php" id="loginForm" >
 	    <input name="autenticate" type="hidden" value="" />
 	    <fieldset>
-			<legend>Sign in</legend>
+			<legend>Iniciar Sesion</legend>
 			<div class="clearfix">
 				<label for="user">Email: </label>
 				<div class="input">
@@ -14,18 +14,18 @@
 				</div>
 			</div>
 			<div class="clearfix">
-		        <label>Password: </label>
+		        <label>Constrasena: </label>
 				<div class="input">
 			        <input class="span4" name="password" id="password" type="password" />		
 			        <span class="help-block">
-	                	<a href="controller.php?view=forgot">Forgot your password? </a>
+	                	<a href="controller.php?view=forgot">Olvido su contrasena? </a>
 	              	</span>
 				</div>
 		        <strong class="error" id="passwordError"></strong>
 			</div>
 	    </fieldset>
 	    <div class="actions">
-	        <input name="" type="submit" class="btn medium blue" value="Log in" />
+	        <input name="" type="submit" class="btn medium blue" value="Iniciar sesion" />
 	    </div>
     </form>
 </div>

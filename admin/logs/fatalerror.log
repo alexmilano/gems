@@ -105,3 +105,5 @@
 [2012/06/30 09:01:58] User role: invalid. This role has no priviledges for this view add-profile
 [2012/06/30 09:02:34] Missing delegate 'profileDelegate.delegate.php'
 [2012/06/30 10:52:15] User role: invalid. This role has no priviledges for this view list-profile
+[2012/06/30 10:55:57] User role: invalid. This role has no priviledges for this view list-profile
+[2012/06/30 10:56:01] User role: invalid. This role has no priviledges for this view list-profile

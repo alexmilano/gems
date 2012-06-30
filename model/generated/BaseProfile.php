@@ -285,6 +285,15 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
+		$this->hasColumn('status', 'string', 20, array(
+             'type' => 'string',
+             'length' => 20,
+             'fixed' => "Pendiente",
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
+             'autoincrement' => false,
+             ));
     }
 
     public function setUp()

@@ -34,7 +34,7 @@
 					$fecha_nac = date_create($validator->getVar("fecha_nacimiento")); //la fecha debe venir como string
 					$dia_nac = date_format($fecha_nac, 'd');
 					$first_letter = $nombre[0]; 
-					$codigo = $dia_nac . $first_letter;
+					$codigo =  $first_letter . $dia_nac ;
 					$records = Doctrine::getTable('profile')->findOneBysocio($codigo);
 					$gc = $this->getCodigo($codigo);
 					while ( $gc != NULL){
@@ -47,7 +47,9 @@
 					
 			    	$entity->socio= $codigo;
 			    	$entity->nombre=$nombre;
-			    	$entity->fecha_nacimiento = date_format($fecha_nac, 'd-m-Y');
+					
+					
+			    	$entity->fecha_nacimiento = date('Y-m-d',strtotime(preg_replace('#/#','-',$validator->getVar("fecha_nacimiento"))));
 					$entity->empresa=$validator->getVar("empresa");
 					$entity->cargo=$validator->getVar("cargo");
 					$entity->telefono=$validator->getVar("telefono");
@@ -69,7 +71,7 @@
 					$entity->gustos_deportes=$validator->getVar("gustos_deportes");
 					$entity->recibo_estado_cuenta=$validator->getVar("recibo_estado_cuenta");
 					$entity->supervisor=-1;
-					$entity->fecha_inscripcion= date('d-m-Y');
+					$entity->fecha_inscripcion= date('Y-m-d');
 					$entity->user_id=$user->id;
 					$entity->save();
 				
@@ -113,11 +115,30 @@
 		    	$record->supervisor=$validator->getVar("supervisor");
 		    	$record->fecha_inscripcion=$validator->getVar("fecha_inscripcion");
 		    	$record->user_id=$validator->getVar("user_id");
+				$record->status = "Pendiente";
 		    	$record->save();
 
 				return "controller.php?view=list-profile&idprofile=".$validator->getVar("id");
 			}
 
+			function cambiarStatus($validator)
+			{
+				$id = $validator->getVar("id");
+				$status = $validator->getVar("status");
+				$record = Doctrine::getTable("profile")->find($id);
+				
+				$user = Doctrine::getTable("user")->find($record->user_id);
+		    	$user->status = $status;
+				$record->status = $status;
+				$random = rand(0,999999999);
+				$pass = sha1($random);
+				$user->password();
+				
+		    	$user->save();
+				$record->save();
+
+				return "controller.php?view=list-profile&idprofile=".$validator->getVar("id");
+			}
 			function delete($validator)
 			{
 				$id = $validator->getVar("id");

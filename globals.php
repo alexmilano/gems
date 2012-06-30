@@ -30,9 +30,9 @@ $GLOBALS["canisSessionName"] = "ejemploDeSession";
 
 /*--------THIS ARE THE MYSQL CONECTION DEFINITIONS----------*/
 //
-$GLOBALS["dbServer"]   = "";
-$GLOBALS["dbName"]     = "";
-$GLOBALS["dbUser"]     = "";
+$GLOBALS["dbServer"]   = "localhost";
+$GLOBALS["dbName"]     = "gems";
+$GLOBALS["dbUser"]     = "root";
 $GLOBALS["dbPassword"] = "";
 
 //$GLOBALS["dbServer"]   = "localhost";
@@ -74,6 +74,6 @@ $GLOBALS["error_mailAccount"]  = "aalejo@gmail.com";
 $GLOBALS["frendlyURL"] = true;
 
 
-$GLOBALS["baseURL"] = "http://localhost:8888/canis-base/Canis/";
+$GLOBALS["baseURL"] = "http://localhost/gems/";
 
 ?>

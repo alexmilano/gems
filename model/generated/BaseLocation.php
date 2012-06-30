@@ -1,4 +1,6 @@
 <?php
+// Connection Component Binding
+Doctrine_Manager::getInstance()->bindComponent('Location', 'gems');
 
 /**
  * BaseLocation
@@ -21,20 +23,20 @@ abstract class BaseLocation extends Doctrine_Record
         $this->setTableName('location');
         $this->hasColumn('id', 'integer', 4, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 4,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => true,
              'autoincrement' => true,
-             'length' => '4',
              ));
         $this->hasColumn('name', 'string', 20, array(
              'type' => 'string',
-             'fixed' => 0,
+             'length' => 20,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '20',
              ));
     }
 

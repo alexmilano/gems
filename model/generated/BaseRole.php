@@ -1,4 +1,6 @@
 <?php
+// Connection Component Binding
+Doctrine_Manager::getInstance()->bindComponent('Role', 'gems');
 
 /**
  * BaseRole
@@ -21,20 +23,20 @@ abstract class BaseRole extends Doctrine_Record
         $this->setTableName('role');
         $this->hasColumn('id', 'integer', 4, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 4,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => true,
              'autoincrement' => true,
-             'length' => '4',
              ));
         $this->hasColumn('name', 'string', 15, array(
              'type' => 'string',
-             'fixed' => 0,
+             'length' => 15,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '15',
              ));
     }
 

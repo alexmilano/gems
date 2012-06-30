@@ -1,4 +1,6 @@
 <?php
+// Connection Component Binding
+Doctrine_Manager::getInstance()->bindComponent('User', 'gems');
 
 /**
  * BaseUser
@@ -27,68 +29,68 @@ abstract class BaseUser extends Doctrine_Record
         $this->setTableName('user');
         $this->hasColumn('id', 'integer', 8, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 8,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => true,
              'autoincrement' => true,
-             'length' => '8',
              ));
         $this->hasColumn('email', 'string', 100, array(
              'type' => 'string',
-             'fixed' => 0,
+             'length' => 100,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '100',
              ));
         $this->hasColumn('password', 'string', 205, array(
              'type' => 'string',
-             'fixed' => 0,
+             'length' => 205,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => false,
              'autoincrement' => false,
-             'length' => '205',
              ));
         $this->hasColumn('location_id', 'integer', 4, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 4,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'default' => '1',
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '4',
              ));
         $this->hasColumn('role_id', 'integer', 4, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 4,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'default' => '1',
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '4',
              ));
         $this->hasColumn('status', 'string', 10, array(
              'type' => 'string',
-             'fixed' => 0,
+             'length' => 10,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'default' => 'pending',
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '10',
              ));
         $this->hasColumn('validation_code', 'integer', 8, array(
              'type' => 'integer',
-             'fixed' => 0,
+             'length' => 8,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => '8',
              ));
     }
 

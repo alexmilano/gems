@@ -2,6 +2,7 @@
 	<input type="hidden" name="action" value="insert" />
 	<input type='hidden' name='id' value='' />
 	
+
 	<p><b>Nombre</b></p>
 		<input type='text' name='nombre' value='' />
 		

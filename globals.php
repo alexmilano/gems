@@ -25,7 +25,7 @@ $GLOBALS["DEFAULT_ROLE_ID"] = "1";
 $GLOBALS["PENDING_VIEW"]    = "validate";
 
 /*--------END OF THE MANDATORY DEFINITIONS----------*/
-$GLOBALS["connectionName"] = "connectionexample";
+$GLOBALS["connectionName"] = "gems";
 $GLOBALS["canisSessionName"] = "ejemploDeSession";
 
 /*--------THIS ARE THE MYSQL CONECTION DEFINITIONS----------*/
@@ -74,6 +74,6 @@ $GLOBALS["error_mailAccount"]  = "aalejo@gmail.com";
 $GLOBALS["frendlyURL"] = true;
 
 
-$GLOBALS["baseURL"] = "http://localhost:3002/gems/";
+$GLOBALS["baseURL"] = "http://localhost/gems/";
 
 ?>

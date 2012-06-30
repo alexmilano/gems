@@ -1,0 +1,19 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/.]+)/?$ controller.php?view=$1 [L]
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)/?$ controller.php?view=$1&$2=$3 [L]
+RewriteRule ^view/([^/.]+)/([^/.]+)/([^/.]+)/?$ controller.php?view=$1&$2=$3 [L]
+RewriteRule ^casosdeestudio/([^/.]+)?$ controller.php?view=casosdeestudio=$1&$2 [L]
+AddType application/vnd.ms-fontobject .eot
+AddType font/truetype .ttf
+AddType font/opentype .otf
+AddType font/opentype .woff
+AddType image/svg+xml .svg .svgz
+AddEncoding gzip .svgz
+<FilesMatch "\.(ttf|otf|eot|woff|svg)$">
+        <IfModule mod_headers.c>
+                Header set Access-Control-Allow-Origin "*"
+        </IfModule>
+</FilesMatch>

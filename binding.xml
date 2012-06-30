@@ -7,4 +7,18 @@
 	<view name="login" url="_user/login.php" scripts="_user/login.js" styles="_user/login.css"/>
 	<view name="forgot" url="_user/forgot.php" class="PasswordDelegate"/>
 	<view name="change-password" url="_user/change-password.php" scripts="_user/change-password.js" class="PasswordDelegate" template="internal"/>
-<view name="add-profile" url="generated/add-profile.php" class="profileDelegate"/><view name="list-profile" url="generated/list-profile.php" class="profileDelegate"><getter destination="listprofile">listRecords</getter></view><view name="update-profile" url="generated/update-profile.php" class="profileDelegate"><getter destination="entity">getprofile</getter></view><view name="add-user" url="generated/add-user.php" class="userDelegate"/><view name="list-user" url="generated/list-user.php" class="userDelegate"><getter destination="listuser">listRecords</getter></view><view name="update-user" url="generated/update-user.php" class="userDelegate"><getter destination="entity">getuser</getter></view></views>
+	<view name="add-profile" url="generated/add-profile.php" class="profileDelegate"/>
+	<view name="list-profile" url="generated/list-profile.php" class="profileDelegate">
+		<getter destination="listprofile">listRecords</getter>
+	</view>
+	<view name="update-profile" url="generated/update-profile.php" class="profileDelegate">
+		<getter destination="entity">getprofile</getter>
+	</view>
+	<view name="add-user" url="generated/add-user.php" class="userDelegate"/>
+	<view name="list-user" url="generated/list-user.php" class="userDelegate">
+		<getter destination="listuser">listRecords</getter>
+	</view>
+	<view name="update-user" url="generated/update-user.php" class="userDelegate">
+		<getter destination="entity">getuser</getter>
+	</view>
+</views>

@@ -16,7 +16,7 @@
 	<input type='text' name='cargo' value='' />
 
 <p><b>Telefono</b></p>
-	<input type='text' name='telefono' value='' />
+	<input type='tel' name='telefono' value='' />
 
 <p><b>Celular</b></p>
 	<input type='text' name='celular' value='' />
@@ -25,25 +25,31 @@
 	<input type='text' name='fax' value='' />
 
 <p><b>Email</b></p>
-	<input type='text' name='email' value='' />
+	<input type='email' name='email' value='' />
 
 <p><b>Direccion</b></p>
 	<input type='text' name='direccion' value='' />
 
 <p><b>Estado Civil</b></p>
-	<input type='text' name='estado_civil' value='' />
+	<select name='estado_civil'>
+		<option value="soltero">Soltero(a)</option>
+		<option value="casado">Casado(a)</option>
+		<option value="unido">Unido(a)</option>
+		<option value="otro">Otros</option>
+	</select>
+	<input type="text" name="otros" value=""/>
 
 <p><b>Hijos</b></p>
-	<input type='text' name='hijos' value='' />
+	<input type='number' name='hijos' value='' class="mini"/>
 
-<p><b>Hijos Menor 12</b></p>
-	<input type='text' name='hijos_menor_12' value='' />
+<p><b>Menores a 12 a&ntilde;os</b></p>
+	<input type='text' name='hijos_menor_12' value='' class="mini" />
 
-<p><b>Hijos 13 18</b></p>
-	<input type='text' name='hijos_13_18' value='' />
+<p><b>Entre 13 y 18 a&ntilde;os</b></p>
+	<input type='text' name='hijos_13_18' value='' class="mini"/>
 
-<p><b>Hijos 19 Mas</b></p>
-	<input type='text' name='hijos_19_mas' value='' />
+<p><b>Mayores a 19 a&ntilde;os</b></p>
+	<input type='text' name='hijos_19_mas' value='' class="mini"/>
 
 <p><b>Gustos Generales</b></p>
 	<input type='text' name='gustos_generales' value='' />

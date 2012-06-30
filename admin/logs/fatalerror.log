@@ -101,3 +101,6 @@
 [2010/10/08 05:20:05] There is no open connection
 [2010/10/08 05:23:48] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'canis.user' doesn't exist. Failing Query: "SELECT u.id AS u__id, u.email AS u__email, u.password AS u__password, u.locationid AS u__locationid, u.roleid AS u__roleid, u.status AS u__status, u.validation_code AS u__validation_code, u.facebook_id AS u__facebook_id FROM user u WHERE (u.email = 'aalejo@gmail.com')"
 [2012/01/14 07:44:02] The view "registro" has not been defined bindings.xml
+[2012/06/30 09:01:51] User role: invalid. This role has no priviledges for this view add-profile
+[2012/06/30 09:01:58] User role: invalid. This role has no priviledges for this view add-profile
+[2012/06/30 09:02:34] Missing delegate 'profileDelegate.delegate.php'

@@ -74,6 +74,6 @@ $GLOBALS["error_mailAccount"]  = "aalejo@gmail.com";
 $GLOBALS["frendlyURL"] = true;
 
 
-$GLOBALS["baseURL"] = "http://localhost/gems/";
+$GLOBALS["baseURL"] = "http://localhost:3002/gems/";
 
 ?>

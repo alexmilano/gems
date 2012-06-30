@@ -6,6 +6,8 @@
 		<view read='true' edit='true'>signup</view>
 		<view read='true' edit='true'>validate</view>
 		<view read='true' edit='true'>forgot</view>
+		<view read='true' edit='true'>add-profile</view>
+		
 	</role>
 	<role name='admin' >
 		<view read='true' edit='true'>private</view>

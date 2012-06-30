@@ -2,10 +2,12 @@
 	<input type="hidden" name="action" value="insert" />
 	<input type='hidden' name='id' value='' />
 	
-	
-	
+
 	<p><b>Nombre</b></p>
 		<input type='text' name='nombre' value='' />
+		
+	<p><b>Fecha de nacimiento</b></p>
+		<input type="text" name="fecha_nacimiento" value="" />
 	
 	<p><b>Empresa</b></p>
 		<input type='text' name='empresa' value='' />
@@ -38,16 +40,16 @@
 		<input type="text" name="otros" value=""/>
 	
 	<p><b>Hijos</b></p>
-		<input type='number' name='hijos' value='' class="mini"/>
+		<input type='number' name='hijos' value='' class="span1"/>
 	
 	<p><b>Menores a 12 a&ntilde;os</b></p>
-		<input type='text' name='hijos_menor_12' value='' class="mini" />
+		<input type='number' name='hijos_menor_12' value='' class="span1" />
 	
 	<p><b>Entre 13 y 18 a&ntilde;os</b></p>
-		<input type='text' name='hijos_13_18' value='' class="mini"/>
+		<input type='number' name='hijos_13_18' value='' class="span1"/>
 	
 	<p><b>Mayores a 19 a&ntilde;os</b></p>
-		<input type='text' name='hijos_19_mas' value='' class="mini"/>
+		<input type='number' name='hijos_19_mas' value='' class="span1"/>
 	
 	<div class="control-group">
 		<label><b>&iquest;Qu&eacute; le gusta m&aacute;s entre?:</b></label>

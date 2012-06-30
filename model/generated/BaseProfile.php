@@ -10,7 +10,7 @@ Doctrine_Manager::getInstance()->bindComponent('Profile', 'gems');
  * @property integer $id
  * @property string $socio
  * @property string $nombre
- * @property date $fecha_nacimiento
+ * @property datetime $fecha_nacimiento
  * @property string $empresa
  * @property string $cargo
  * @property string $telefono
@@ -32,7 +32,7 @@ Doctrine_Manager::getInstance()->bindComponent('Profile', 'gems');
  * @property string $gustos_deportes
  * @property string $recibo_estado_cuenta
  * @property integer $supervisor
- * @property date $fecha_inscripcion
+ * @property datetime $fecha_inscripcion
  * @property integer $user_id
  * 
  * @package    ##PACKAGE##
@@ -71,8 +71,8 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
-        $this->hasColumn('fecha_nacimiento', 'date', null, array(
-             'type' => 'date',
+        $this->hasColumn('fecha_nacimiento', 'datetime', null, array(
+             'type' => 'datetime',
              'fixed' => false,
              'unsigned' => false,
              'primary' => false,
@@ -268,8 +268,8 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
-        $this->hasColumn('fecha_inscripcion', 'date', null, array(
-             'type' => 'date',
+        $this->hasColumn('fecha_inscripcion', 'datetime', null, array(
+             'type' => 'datetime',
              'fixed' => false,
              'unsigned' => false,
              'primary' => false,

@@ -31,6 +31,7 @@
 					$user->save();
 					
 					$nombre = $validator->getVar("nombre");
+					$fecha_nac = date_create($validator->getVar("fecha_nacimiento")); //la fecha debe venir como string
 					$dia_nac = date_format($fecha_nac, 'd');
 					$first_letter = $nombre[0]; 
 					$codigo = $dia_nac . $first_letter;
@@ -42,8 +43,8 @@
 					}
 						
 					$entity = new profile();
-					$fecha_nac = date_create($validator->getVar("fecha_nacimiento")); //la fecha debe venir como string
-					$fecha_inscripcion = date_create($validator->getVar("fecha_inscripcion"));
+					
+					
 			    	$entity->socio= $codigo;
 			    	$entity->nombre=$nombre;
 			    	$entity->fecha_nacimiento = date_format($fecha_nac, 'd-m-Y');

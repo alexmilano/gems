@@ -51,8 +51,15 @@
 <p><b>Mayores a 19 a&ntilde;os</b></p>
 	<input type='text' name='hijos_19_mas' value='' class="mini"/>
 
+<div class="control-group">
+	<label>Gustos generales</label>
+	<div class="controls">
+		
+	</div>
+</div>
+
 <p><b>Gustos Generales</b></p>
-	<input type='text' name='gustos_generales' value='' />
+	<select name='gustos_generales' ></select>
 
 <p><b>Gustos Pasatiempos</b></p>
 	<input type='text' name='gustos_pasatiempos' value='' />

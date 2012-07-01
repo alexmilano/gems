@@ -12,6 +12,9 @@
 	<view name="list-profile" url="generated/list-profile.php" class="profileDelegate">
 		<getter destination="listprofile">listRecords</getter>
 	</view>
+	<view name="supervisores" url="generated/list-supervisor.php" class="SupervisorDelegate">
+		<getter destination="listprofile">listRecords</getter>
+	</view>
 	<view name="update-profile" url="generated/update-profile.php" class="profileDelegate">
 		<getter destination="entity">getprofile</getter>
 	</view>

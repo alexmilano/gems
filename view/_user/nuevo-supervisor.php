@@ -5,7 +5,7 @@
 	<form action="crud.php" id="theform" >
 	    <input name="action" type="hidden" value="newUser" />
 	    <fieldset>
-			<legend>Sign in</legend>
+			<legend>Nuevo Supervisor</legend>
 			<div class="clearfix">
 				<label for="user">Email: </label>
 				<div class="input">
@@ -20,7 +20,7 @@
 				</div>
 		        <strong class="error" id="passwordError"></strong>
 			</div>
-	    </fieldset>
+	    
 			<div class="clearfix">
 		        <label>Repeat Password: </label>
 				<div class="input">
@@ -28,9 +28,22 @@
 				</div>
 		        <strong class="error" id="passwordError"></strong>
 			</div>
-	    </fieldset>
+			<div class="clearfix">
+		        <label>Rol: </label>
+				<div class="input">
+					<select name="rol">
+						
+						<option value="3">Administrador</option>
+						<option value="2">Supervisor</option>
+						
+					</select>
+			        	
+				</div>
+		        <strong class="error" id="passwordError"></strong>
+			</div>
+		</fieldset>
 	    <div class="actions">
-	        <input name="" type="submit" class="btn medium blue" value="Log in" />
+	        <input name="" type="submit" class="btn medium blue" value="Registrar" />
 	    </div>
     </form>
 </div>

@@ -28,7 +28,7 @@
 	<view name="update-user" url="generated/update-user.php" class="userDelegate">
 		<getter destination="entity">getuser</getter>
 	</view>
-	
+	<view name="dashboard-supervisor" url="generated/dashboard-supervisor" class="profileDelegate"/>
 	
 	
 </views>

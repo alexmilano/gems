@@ -3,6 +3,7 @@
 	<view name="home" url="home.php"/>
 	<view name="private" url="private.php"/>
 	<view name="signup" url="_user/signup.php" scripts="_user/signup.js" class="SignupDelegate"/>
+	<view name="nuevo-supervisor" url="_user/nuevo-supervisor.php" scripts="_user/signup.js" class="SupervisorDelegate"/>
 	<view name="validate" url="_user/validate.php"/>
 	<view name="login" url="_user/login.php" scripts="_user/login.js" styles="_user/login.css"/>
 	<view name="forgot" url="_user/forgot.php" class="PasswordDelegate"/>
@@ -24,5 +25,7 @@
 	<view name="update-user" url="generated/update-user.php" class="userDelegate">
 		<getter destination="entity">getuser</getter>
 	</view>
+	
+	
 	
 </views>

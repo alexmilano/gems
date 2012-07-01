@@ -131,7 +131,7 @@
 				$record->status = $status;
 				$random = rand(0,999999999);
 				$pass = sha1($random);
-				$user->password();
+				$user->password= $pass;
 				
 		    	$user->save();
 				$record->save();
@@ -151,7 +151,7 @@
 			function listRecords($validator)
 			{
 
-				$q = Doctrine_Query::create()->from("profile");
+				$q = Doctrine_Query::create()->from("profile a")->where("a.status = " . $validator->getVar("status"));
 				$records = $q->execute();
 
 				return $records;

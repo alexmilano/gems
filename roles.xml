@@ -9,6 +9,7 @@
 		<view read='true' edit='true'>add-profile</view>
 		<view read='true' edit='true'>list-profile</view>
 		<view read='true' edit='true'>show-profile</view>
+		<view read='true' edit='true'>nuevo-supervisor</view>
 		
 	</role>
 	<role name='admin' >

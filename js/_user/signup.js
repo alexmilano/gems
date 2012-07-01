@@ -11,6 +11,10 @@
 			});
 
  });
+ 
+function noEmpty(str) {
+    return (!str || 0 === str.length);
+}
 
 function validatetheform(formData, jqForm, options)
 {

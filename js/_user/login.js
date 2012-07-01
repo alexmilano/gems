@@ -13,6 +13,10 @@
 
  });
 
+function noEmpty(str) {
+    return (!str || 0 === str.length);
+}
+
  function validateloginForm(formData, jqForm, options)
 {
 	var errors          = 0;

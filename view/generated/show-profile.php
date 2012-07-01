@@ -66,6 +66,23 @@
 
 <p><b>Recibo Estado Cuenta</b></p>
 	<input class="disabled" disabled="true" type='text' name='recibo_estado_cuenta' value='<?php echo $vars["entity"]->recibo_estado_cuenta; ?>' />
-
-<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=valido">Aceptar</a>
-<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=rechazado">Rechazar</a>
+<?php
+if ($vars["status"] == "Pendiente") {
+?>
+	<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=Valido">Aceptar</a>
+	<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=Rechazado">Rechazar</a>
+<?php
+}else if ($vars["status"] == "Invalido") {
+?>
+	<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=Valido">Cambiar a v&aacute;lido</a>
+<?php
+}else if ($vars["status"] == "Rechazado") {
+?>
+	<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=Valido">Aceptar</a>
+<?php
+}else{
+?>
+	<a class="btn-success" href="crud.php?view=add-profile&action=cambiarStatus&id=<?php echo $vars["entity"]->id; ?>&status=Invalido">Invalidar</a>
+<?php
+}
+ ?>

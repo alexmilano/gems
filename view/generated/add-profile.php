@@ -1,6 +1,6 @@
 <form action="crud.php" method="post" class="form-inline">
 	<input type="hidden" name="action" value="insert" />
-	<input type="hidden" name="view" value="add-profile" />
+	<input type="hidden" name="view" value="aplicar" />
 	<input type='hidden' name='id' value='' />
 	
 

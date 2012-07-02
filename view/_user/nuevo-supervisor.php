@@ -4,6 +4,7 @@
 	</div>
 	<form action="crud.php" id="theform" >
 	    <input name="action" type="hidden" value="newUser" />
+	    <input name="view" type="hidden" value="nuevo-supervisor" />
 	    <fieldset>
 			<legend>Nuevo Supervisor</legend>
 			<div class="clearfix">

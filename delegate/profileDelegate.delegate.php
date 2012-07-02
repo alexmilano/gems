@@ -84,7 +84,7 @@
 				
 				
 
-				return "controller.php?view=list-profile";
+				return "validate";
 			}
 
 			function update($validator)
@@ -132,11 +132,33 @@
 				$random = rand(0,999999999);
 				$pass = sha1($random);
 				$user->password= $pass;
-				
-		    	$user->save();
+				$user->save();
 				$record->save();
+				
+				require_once('phputils/class.phpmailer.php');
 
-				return "controller.php?view=list-profile&idprofile=".$validator->getVar("id");
+				try {
+					
+					$mail = new PHPMailer(true); 
+					$body = 'Hola '.$record->nombre .', Bienvenido!, tu contrasena provisional es '.$random.'. Puedes ingresar a la aplicacion desde este enlace: '.$GLOBALS["baseURL"].', recuerda cambiar tu contrasena!';
+					$body             = preg_replace('/\\\\/','', $body); //Strip backslashes
+					$mail->From       = "no-reply@gems.com";
+					$mail->FromName   = "gems.com";
+					$mail->AddBCC($record->email);
+					$mail->Subject  = "Has sido aprobado como socio en GEMS";
+					$mail->AltBody    = 'Hola'.$record->nombre .', Bienvenido!, tu contrasena provisional es '.$random.'. Puedes ingresar a la aplicacion desde este enlace: '.$GLOBALS["baseURL"].', recuerda cambiar tu contrasena!';
+					$mail->WordWrap   = 80; // set word wrap
+					$mail->MsgHTML($body);
+					$mail->IsHTML(true); // send as HTML
+					$mail->Send();
+
+	
+				} catch (phpmailerException $e) {
+					//$validator->addError("PHPMailer:".$e->errorMessage());
+				}
+				
+				
+				return "controller.php?view=list-profile&status=pendiente";
 			}
 			function delete($validator)
 			{
@@ -151,7 +173,7 @@
 			function listRecords($validator)
 			{
 
-				$q = Doctrine_Query::create()->from("profile a")->where("a.status = " . $validator->getVar("status"));
+				$q = Doctrine_Query::create()->from("profile a")->where("a.status = '". $validator->getVar('status') . "'");
 				$records = $q->execute();
 
 				return $records;

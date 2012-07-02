@@ -103,7 +103,7 @@ else if(isset($_REQUEST['autenticate']))
 
 			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["MANAGER_VIEW"].'";</script>';
 		}
-		else if($_SESSION['user']->roleName=='resident' || $_SESSION['user']->roleName=='condo' || $_SESSION['user']->roleName=='applicant')
+		else if($_SESSION['user']->roleName=='socio' || $_SESSION['user']->roleName=='condo' || $_SESSION['user']->roleName=='applicant')
 		{
 
 			if(!isset($_SESSION["pendingCanisViewRequest"]) || $_SESSION["pendingCanisViewRequest"]=='')
@@ -140,9 +140,9 @@ else if(isset($_REQUEST['autenticate']))
 			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["PRIVATE_VIEW"].'";</script>';
 		
 		}
-		else if ($_SESSION['user']->roleName == 'desarrollador')
+		else if ($_SESSION['user']->roleName == 'supervisor')
 		{
-			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["DEVELOPER_VIEW"].'";</script>';
+			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["SUPERVISOR_VIEW"].'";</script>';
 		}
 		else if($_SESSION['user']->roleName == 'lider tecnico')
 		{

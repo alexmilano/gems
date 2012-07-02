@@ -28,4 +28,5 @@
 	        <input name="" type="submit" class="btn medium blue" value="Iniciar sesion" />
 	    </div>
     </form>
+    Puedes aplicar a ser socio<a href="aplicar"> aqui </a>
 </div>

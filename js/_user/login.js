@@ -48,7 +48,7 @@ function isValidEmail(email) {
     }
 	else
 	{
-		formData[formData.length-1] = {"name": "user", "value": email+"@stcsolutions.com.ve"};
+		formData[formData.length-1] = {"name": "user", "value": email};
 		formData[formData.length] = { "name": "password", "value": $.sha1(password) };
 		return true;
 	}

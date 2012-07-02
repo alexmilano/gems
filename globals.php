@@ -9,9 +9,10 @@
 $GLOBALS["LOGIN_VIEW"]    = "login";
 $GLOBALS["SIGNUP_VIEW"]   = "signup";
 $GLOBALS["CHANGE_PASSWORD_VIEW"]   = "change-password";
-$GLOBALS["PRIVATE_VIEW"]  = "private";
+$GLOBALS["PRIVATE_VIEW"]  = "dashboard-socio";
 $GLOBALS["DEFAULT_VIEW"]  = "login";  //The logic name for the deault view that has to be showed in the start page
 $GLOBALS["DEFAULT_PANEL"] = "";
+$GLOBALS["SUPERVISOR_VIEW"] = "dashboard-supervisor";
 
 $GLOBALS["DEFAULT_USER"] = "anonymus";
 
@@ -74,6 +75,6 @@ $GLOBALS["error_mailAccount"]  = "aalejo@gmail.com";
 $GLOBALS["frendlyURL"] = true;
 
 
-$GLOBALS["baseURL"] = "http://localhost:3002/gems/";
+$GLOBALS["baseURL"] = "http://localhost/gems/";
 
 ?>

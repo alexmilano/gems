@@ -6,11 +6,47 @@
 		<view read='true' edit='true'>signup</view>
 		<view read='true' edit='true'>validate</view>
 		<view read='true' edit='true'>forgot</view>
-		<view read='true' edit='true'>add-profile</view>
+		<view read='true' edit='true'>aplicar</view>
 		<view read='true' edit='true'>list-profile</view>
 		<view read='true' edit='true'>show-profile</view>
 		<view read='true' edit='true'>nuevo-supervisor</view>
 		<view read='true' edit='true'>dashboard-supervisor</view>
+		<view read='true' edit='true'>supervisores</view>
+		
+		
+	</role>
+	
+	<role name='socio' >
+		<view read='true' edit='true'>home</view>
+		<view read='true' edit='true'>login</view>
+		<view read='true' edit='true'>signup</view>
+		<view read='true' edit='true'>validate</view>
+		<view read='true' edit='true'>forgot</view>
+		<view read='true' edit='true'>aplicar</view>
+		<view read='true' edit='true'>list-profile</view>
+		<view read='true' edit='true'>show-profile</view>
+		<view read='true' edit='true'>nuevo-supervisor</view>
+		<view read='true' edit='true'>dashboard-supervisor</view>
+		<view read='true' edit='true'>supervisores</view>
+		<view read='true' edit='true'>dashboard-socio</view>
+		
+		
+	</role>
+	
+	<role name='supervisor' >
+		<view read='true' edit='true'>home</view>
+		<view read='true' edit='true'>login</view>
+		<view read='true' edit='true'>signup</view>
+		<view read='true' edit='true'>validate</view>
+		<view read='true' edit='true'>forgot</view>
+		<view read='true' edit='true'>aplicar</view>
+		<view read='true' edit='true'>list-profile</view>
+		<view read='true' edit='true'>show-profile</view>
+		<view read='true' edit='true'>nuevo-supervisor</view>
+		<view read='true' edit='true'>dashboard-supervisor</view>
+		<view read='true' edit='true'>supervisores</view>
+		<view read='true' edit='true'>dashboard-socio</view>
+		
 		
 	</role>
 	<role name='admin' >
@@ -20,5 +56,6 @@
 		<view read='true' edit='true'>signup</view>
 		<view read='true' edit='true'>forgot</view>
 		<view read='true' edit='true'>validate</view>
+		<view read='true' edit='true'>dashboard-socio</view>
 	</role>
 </roles>

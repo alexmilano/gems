@@ -3,7 +3,111 @@
 class SupervisorDelegate
 {
 
-
+	function uploadXML($validator){
+		
+		echo "Upload: " . $_FILES["file"]["name"] . "<br />";
+	    echo "Type: " . $_FILES["file"]["type"] . "<br />";
+	    echo "Size: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
+	    echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
+		$OriginalFilename = $FinalFilename = preg_replace('`[^a-z0-9-_.]`i','',$_FILES['file']['name']); 
+		$FileCounter = 1; 
+		while (file_exists( 'docs/xml/'.$FinalFilename )) 
+		  $FinalFilename = $FileCounter++.'_'.$OriginalFilename; 
+	    
+	    move_uploaded_file($_FILES["file"]["tmp_name"],"docs/xml/" . $FinalFilename );
+	    echo "Stored in: " . "docs/xml/" . $FinalFilename;
+		
+		$doc = new DOMDocument();
+        $doc->load( "docs/xml/" . $FinalFilename );
+  
+  	  	$gems = $doc->getElementsByTagName( "GEMCLUBS" );
+		$q = Doctrine_Query::create()
+		    	->from('tipo t');
+		$tipos = $q->execute();
+		
+  		foreach( $gems as $gem )
+		{
+		  $clientes = $gem->getElementsByTagName( "GUEST" );
+		  $cliente= $clientes->item(0)->nodeValue;
+		  
+		  $CRSRESNR = $gem->getElementsByTagName( "CODIGO" );
+		  $socio = $CRSRESNR->item(0)->nodeValue;
+		  
+		  $a_dates = $gem->getElementsByTagName( "ARRIVAL" );
+		  $arrival_date = date('Y-m-d',strtotime(preg_replace('#/#','-',$a_dates->item(0)->nodeValue)));
+		  
+		  $d_dates = $gem->getElementsByTagName( "DEPARTURE" );
+		  $departure_date = date('Y-m-d',strtotime(preg_replace('#/#','-',$d_dates->item(0)->nodeValue)));
+		  
+		  $rate_codes = $gem->getElementsByTagName( "RATE" );
+		  $rate_code = $rate_codes->item(0)->nodeValue;
+		  
+		  $rate_ammounts = $gem->getElementsByTagName( "RATE_AMOUNT" );
+		  $rate_ammount = $rate_ammounts->item(0)->nodeValue;
+		  
+		  $rate_revenues = $gem->getElementsByTagName( "REVENUE" );
+		  $rate_revenue = $rate_revenues->item(0)->nodeValue;
+		  
+		  $nameids = $gem->getElementsByTagName( "CONFIRMATION" );
+		  $confirmacion = $nameids->item(0)->nodeValue;
+		  
+		  //$rooms = $gem->getElementsByTagName( "PREIS" );
+		  //$room = $rooms->item(0)->nodeValue;
+		  $room = 250;
+		  $q = Doctrine_Query::create()
+		    ->from('venta u')
+		    ->where("u.confirmation='$confirmacion'");
+		
+		  $rows = $q->execute();
+		  if(count($rows)==0){
+			  $venta = new venta();
+			  $venta->guest_name = $cliente;
+			  $venta->room = $room;
+			  $venta->code_socio = $socio;
+			  $venta->arrival = $arrival_date;
+			  $venta->departure = $departure_date;
+			  $venta->rate_code = $rate_code;
+			  $venta->rate_revenue = floatval($rate_revenue);
+			  $venta->rate_ammount = floatval($rate_ammount);
+			  $venta->confirmation = $confirmacion;
+			  $venta->save();
+		  	
+			  $socio_bd = Doctrine::getTable('profile')->findOneBysocio($socio);
+			  $aux = $socio_bd->revenue_total;
+			  $socio_bd->revenue_total = $aux + floatval($rate_revenue);
+			  $aux = $socio_bd->revenue_disponibles;
+			  $socio_bd->revenue_disponibles = $aux + floatval($rate_revenue);
+			  
+			  if (($aux + floatval($rate_revenue)/1000)>1){
+			  	$total_revenue = floatval($aux) + floatval($rate_revenue);
+				$div_tr = $total_revenue / 1000;
+				$redondeo = floor($div_tr);
+			  	$puntos_redondeados = $redondeo*1000;
+				$socio_bd->puntos_disponibles = $puntos_redondeados;
+			  }
+			  
+			  $revenue_total = $aux + floatval($rate_revenue);
+			  
+			  foreach ($tipos as $tipo) {
+			  	if (($revenue_total > $tipo["minimo"]) &&  ($revenue_total < $tipo["maximo"])){
+					$socio_bd->tipo =  $tipo["id"]; 
+					break;	
+				}
+			  }
+			  
+			  
+			  
+			  $socio_bd->save();
+			  
+		  }
+		  else{
+		  	echo "Existe el codigo de confirmacion " .  $confirmacion;
+		  }
+		  
+		  //echo "$socio , $cliente , $arrival_date , $departure_date , $room , $rate_code , $rate_revenue,  $rate_ammount, $confirmacion<br/>";
+	}
+      	  
+	}
 	function getRoles($validator)
 	{
 

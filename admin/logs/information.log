@@ -139,3 +139,6 @@
 [2012/06/30 11:33:31] User role: 'invalid' cannot perform this action 'insert'
 [2012/06/30 11:35:30] User role: 'invalid' cannot perform this action 'insert'
 [2012/06/30 11:35:48] User role: 'invalid' cannot perform this action 'insert'
+[2012/07/15 08:02:13] User role: 'invalid' cannot perform this action 'insert'
+[2012/07/15 08:02:43] User role: 'invalid' cannot perform this action 'insert'
+[2012/07/15 08:04:37] User role: 'invalid' cannot perform this action 'update'

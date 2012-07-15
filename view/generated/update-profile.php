@@ -1,6 +1,7 @@
 
 		<form action="crud.php" method="post">
 			<input type="hidden" name="action" value="update" />
+			<input type="hidden" name="view" value="update-profile" />
 		<input type='hidden' name='id' value='<?php echo $vars["entity"]->id; ?>' />
 
 <p><b>Socio</b></p>

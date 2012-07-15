@@ -118,3 +118,23 @@
 [2012/07/01 02:08:06] There is no rol supervisor.
 [2012/07/01 02:08:06] There is no rol supervisor.
 [2012/07/01 02:08:07] There is no rol supervisor.
+[2012/07/07 05:24:09] The view "upload" has not been defined bindings.xml
+[2012/07/07 05:25:05] Method not found: insert in class SupervisorDelegate
+[2012/07/07 07:12:13] The view "generator" has not been defined bindings.xml
+[2012/07/07 07:13:12] The view "admin" has not been defined bindings.xml
+[2012/07/07 07:13:22] User role: invalid. This role has no priviledges for this view list-venta
+[2012/07/07 07:15:12] Missing delegate 'ventaDelegate.delegate.php'
+[2012/07/15 04:56:07] The view "upload" has not been defined bindings.xml
+[2012/07/15 07:52:22] User role: invalid. This role has no priviledges for this view add-tipo
+[2012/07/15 07:52:48] Missing delegate 'tipoDelegate.delegate.php'
+[2012/07/15 08:40:36] The view "new-user" has not been defined bindings.xml
+[2012/07/15 08:40:52] User role: invalid. This role has no priviledges for this view add-user
+[2012/07/15 08:42:46] User role: admin. This role has no priviledges for this view dashboard-supervisor
+[2012/07/15 08:49:09] User role: admin. This role has no priviledges for this view list-premio
+[2012/07/15 08:50:33] User role: admin. This role has no priviledges for this view add-venta
+[2012/07/15 09:09:50] User role: supervisor. This role has no priviledges for this view panel-admin
+[2012/07/15 09:10:23] User role: supervisor. This role has no priviledges for this view panel-admin
+[2012/07/15 09:31:51] User role: socio. This role has no priviledges for this view canjear
+[2012/07/15 09:49:07] User role: socio. This role has no priviledges for this view mis-canjes
+[2012/07/15 10:24:15] The view "list-canjes" has not been defined bindings.xml
+[2012/07/15 10:24:32] User role: socio. This role has no priviledges for this view list-canje

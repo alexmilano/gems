@@ -10,7 +10,10 @@ Doctrine_Manager::getInstance()->bindComponent('Profile', 'gems');
  * @property integer $id
  * @property string $socio
  * @property string $nombre
- * @property datetime $fecha_nacimiento
+ * @property float $revenue_total
+ * @property float $revenue_disponibles
+ * @property float $puntos_disponibles
+ * @property timestamp $fecha_nacimiento
  * @property string $empresa
  * @property string $cargo
  * @property string $telefono
@@ -32,8 +35,10 @@ Doctrine_Manager::getInstance()->bindComponent('Profile', 'gems');
  * @property string $gustos_deportes
  * @property string $recibo_estado_cuenta
  * @property integer $supervisor
- * @property datetime $fecha_inscripcion
+ * @property timestamp $fecha_inscripcion
  * @property integer $user_id
+ * @property string $status
+ * @property string $tipo
  * 
  * @package    ##PACKAGE##
  * @subpackage ##SUBPACKAGE##
@@ -71,8 +76,35 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
-        $this->hasColumn('fecha_nacimiento', 'datetime', null, array(
-             'type' => 'datetime',
+        $this->hasColumn('revenue_total', 'float', null, array(
+             'type' => 'float',
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('revenue_disponibles', 'float', null, array(
+             'type' => 'float',
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('puntos_disponibles', 'float', null, array(
+             'type' => 'float',
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('fecha_nacimiento', 'timestamp', null, array(
+             'type' => 'timestamp',
              'fixed' => false,
              'unsigned' => false,
              'primary' => false,
@@ -268,8 +300,8 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
-        $this->hasColumn('fecha_inscripcion', 'datetime', null, array(
-             'type' => 'datetime',
+        $this->hasColumn('fecha_inscripcion', 'timestamp', null, array(
+             'type' => 'timestamp',
              'fixed' => false,
              'unsigned' => false,
              'primary' => false,
@@ -285,10 +317,20 @@ abstract class BaseProfile extends Doctrine_Record
              'notnull' => true,
              'autoincrement' => false,
              ));
-		$this->hasColumn('status', 'string', 20, array(
+        $this->hasColumn('status', 'string', 20, array(
              'type' => 'string',
              'length' => 20,
-             'fixed' => "Pendiente",
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => 'Pendiente',
+             'notnull' => true,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('tipo', 'string', 50, array(
+             'type' => 'string',
+             'length' => 50,
+             'fixed' => false,
              'unsigned' => false,
              'primary' => false,
              'notnull' => false,

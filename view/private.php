@@ -1,1 +1,5 @@
-If you see this page, then you have been successfully signed in
+
+
+<a href="canjear" class="btn">Canjear Premio</a>
+<a href="mis-canjes" class="btn">Mis Canjes</a>
+

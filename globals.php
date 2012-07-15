@@ -9,10 +9,11 @@
 $GLOBALS["LOGIN_VIEW"]    = "login";
 $GLOBALS["SIGNUP_VIEW"]   = "signup";
 $GLOBALS["CHANGE_PASSWORD_VIEW"]   = "change-password";
-$GLOBALS["PRIVATE_VIEW"]  = "dashboard-socio";
-$GLOBALS["DEFAULT_VIEW"]  = "login";  //The logic name for the deault view that has to be showed in the start page
-$GLOBALS["DEFAULT_PANEL"] = "";
-$GLOBALS["SUPERVISOR_VIEW"] = "dashboard-supervisor";
+$GLOBALS["PRIVATE_VIEW"]  = "panel-socio";
+$GLOBALS["DEFAULT_VIEW"]  = "home";  //The logic name for the deault view that has to be showed in the start page
+$GLOBALS["DEFAULT_PANEL"] = "panel-socio";
+$GLOBALS["SUPERVISOR_VIEW"] = "panel-supervisor";
+$GLOBALS["ADMIN_VIEW"] = "panel-admin";
 
 $GLOBALS["DEFAULT_USER"] = "anonymus";
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <views>
 	<view name="home" url="home.php"/>
-	<view name="dashboard-socio" url="private.php"/>
+	<view name="panel-socio" url="private.php"/>
 	<view name="signup" url="_user/signup.php" scripts="_user/signup.js" class="SignupDelegate"/>
 	<view name="nuevo-supervisor" url="_user/nuevo-supervisor.php" scripts="_user/signup.js" class="SupervisorDelegate"/>
 	<view name="validate" url="_user/validate.php"/>
@@ -28,7 +28,47 @@
 	<view name="update-user" url="generated/update-user.php" class="userDelegate">
 		<getter destination="entity">getuser</getter>
 	</view>
-	<view name="dashboard-supervisor" url="generated/dashboard-supervisor.php" class="profileDelegate"/>
+	<view name="panel-supervisor" url="generated/panel-supervisor.php" class="profileDelegate"/>
+	<view name="panel-admin" url="generated/panel-admin.php" class="profileDelegate"/>
+	<view name="panel-socio" url="generated/panel-socio.php" class="profileDelegate"/>
+	<view name="nuevo-registro" url="upload.php" class="SupervisorDelegate"/>
 	
+	<view name="add-venta" url="generated/add-venta.php" class="ventaDelegate"/>
+	<view name="list-venta" url="generated/list-venta.php" class="ventaDelegate">
+	    <getter destination="listventa">listRecords</getter>
+	</view>
+	<view name="update-venta" url="generated/update-venta.php" class="ventaDelegate">
+	    <getter destination="entity">getventa</getter>
+	</view>
+	<view name="add-canje" url="generated/add-canje.php" class="canjeDelegate"/>
+	<view name="list-canje" url="generated/list-canje.php" class="canjeDelegate">
+	    <getter destination="listcanje">listRecords</getter>
+	</view>
+	<view name="mis-canjes" url="socio-canjes.php" class="canjeDelegate">
+	    <getter destination="listcanje">GetSocioCanjes</getter>
+	</view>
+	<view name="update-canje" url="generated/update-canje.php" class="canjeDelegate">
+	    <getter destination="entity">getcanje</getter>
+	</view><view name="add-cheque" url="generated/add-cheque.php" class="chequeDelegate"/>
+	<view name="list-cheque" url="generated/list-cheque.php" class="chequeDelegate">
+	    <getter destination="listcheque">listRecords</getter>
+	</view>
+	<view name="update-cheque" url="generated/update-cheque.php" class="chequeDelegate">
+	    <getter destination="entity">getcheque</getter>
+	</view>
+	<view name="add-premio" url="generated/add-premio.php" class="premioDelegate">
+	    <getter destination="tipos">getTipos</getter>
+	</view>
+	<view name="list-premio" url="generated/list-premio.php" class="premioDelegate">
+	    <getter destination="listpremio">listRecords</getter>
+	</view>
+	<view name="update-premio" url="generated/update-premio.php" class="premioDelegate">
+	    <getter destination="entity">getpremio</getter>
+	</view>
 	
+	<view name="canjear" url="canjear.php" class="premioDelegate">
+	    <getter destination="listpremio">GetPremiosDisponibles</getter>
+	</view>
+	<view name="add-tipo" url="generated/add-tipo.php" class="tipoDelegate"/>
+	<view name="list-tipo" url="generated/list-tipo.php" class="tipoDelegate"><getter destination="listtipo">listRecords</getter></view><view name="update-tipo" url="generated/update-tipo.php" class="tipoDelegate"><getter destination="entity">gettipo</getter></view>
 </views>

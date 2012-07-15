@@ -137,7 +137,7 @@ else if(isset($_REQUEST['autenticate']))
 		}
 		else if($_SESSION['user']->roleName == 'admin')
 		{
-			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["PRIVATE_VIEW"].'";</script>';
+			echo '<script language="JavaScript1.1">window.location="'.$GLOBALS["baseURL"].''.$GLOBALS["ADMIN_VIEW"].'";</script>';
 		
 		}
 		else if ($_SESSION['user']->roleName == 'supervisor')

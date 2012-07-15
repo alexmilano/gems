@@ -3,7 +3,6 @@
 		<p>Lista de user</p>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 		    <tr>
-		<td>id</td>
 		<td>email</td>
 		<td>password</td>
 		<td>location_id</td>
@@ -13,7 +12,6 @@
 			</tr>
 			<?php foreach($vars["listuser"] as $record) { ?>
 			<tr>
-				<td><?php echo $record->id; ?></td>
 				<td><?php echo $record->email; ?></td>
 				<td><?php echo $record->password; ?></td>
 				<td><?php echo $record->location_id; ?></td>

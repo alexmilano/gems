@@ -1,0 +1,1317 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <GEMCLUB>
+    <NAME>Carmen Elisa Cataño </NAME>
+    <CRSRESNR>S04</CRSRESNR>
+    <AN>2012-05-24T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>155985</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Maria Catalina Gill </NAME>
+    <CRSRESNR>S04</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>155985</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Pederson </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-09T00:00:00</AN>
+    <AB>2012-06-10T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>155985</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Haydee Urguiaga </NAME>
+    <CRSRESNR>R07</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-07-01T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>510.64</monto>
+    <NAMEID>165122</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Muriel Lowis </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>60</monto>
+    <NAMEID>161773</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Enrique Nieto Jimeno </NAME>
+    <CRSRESNR>L15</CRSRESNR>
+    <AN>2012-06-11T00:00:00</AN>
+    <AB>2012-06-12T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>161773</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Randall Fine </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-28T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>150148</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>David Delgado </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>63307</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jorge Manella </NAME>
+    <CRSRESNR>C20</CRSRESNR>
+    <AN>2012-05-16T00:00:00</AN>
+    <AB>2012-06-09T00:00:00</AB>
+    <PREIS>115</PREIS>
+    <monto>861.27999999999986</monto>
+    <NAMEID>111634</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Roderick Arturo Acquie </NAME>
+    <CRSRESNR>I07</CRSRESNR>
+    <AN>2012-06-23T00:00:00</AN>
+    <AB>2012-06-25T00:00:00</AB>
+    <PREIS>150</PREIS>
+    <monto>789.90000000000009</monto>
+    <NAMEID>143112</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Sandra Milena Colonia </NAME>
+    <CRSRESNR>S04</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>143112</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Cesar Bustos </NAME>
+    <CRSRESNR>N03</CRSRESNR>
+    <AN>2012-06-13T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>307.98</monto>
+    <NAMEID>160123</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Sung Wha Yu </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>132847</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Sae Hun Jang </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>132845</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Ki Ho Baik </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>132845</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Sung Gil Lee </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>412.65999999999997</monto>
+    <NAMEID>132844</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Choong Sik Park </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>132844</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Hyun Jung Kim </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-29T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>132844</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Young Rak Kim </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>132844</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Sung Mo Cho </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>132851</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Chang Sun Song </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>136235</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Un Chul Shin </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>164211</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Chang Jung Kim </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>225.32</monto>
+    <NAMEID>132848</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Esteban Casado </NAME>
+    <CRSRESNR>G20</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>130</PREIS>
+    <monto>122.66</monto>
+    <NAMEID>163299</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Edwin Nieves </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-05-31T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>270</monto>
+    <NAMEID>157791</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Christine Diaz Rosal </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>360</monto>
+    <NAMEID>161905</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jean Carlos Caballero </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-05-30T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>270</monto>
+    <NAMEID>157795</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luigi Texidor </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-05-31T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>270</monto>
+    <NAMEID>157797</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Simona Elisabeta Petric </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-05-31T00:00:00</AN>
+    <AB>2012-06-03T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>180</monto>
+    <NAMEID>157798</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Dicky Colon </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-05-31T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>80</PREIS>
+    <monto>240</monto>
+    <NAMEID>157799</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Annie Chavarria </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>100</PREIS>
+    <monto>300</monto>
+    <NAMEID>161776</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Marjorie Ortega </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>270</monto>
+    <NAMEID>157804</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Karlies Lopez </NAME>
+    <CRSRESNR>A49</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-04T00:00:00</AB>
+    <PREIS>90</PREIS>
+    <monto>270</monto>
+    <NAMEID>157806</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jinlong Zhang </NAME>
+    <CRSRESNR>N03</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>157806</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rodolfo Pimentel </NAME>
+    <CRSRESNR>J27</CRSRESNR>
+    <AN>2012-05-20T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>100</PREIS>
+    <monto>1500</monto>
+    <NAMEID>156881</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luisa Puerta </NAME>
+    <CRSRESNR>F40</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-26T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>923.93999999999983</monto>
+    <NAMEID>105197</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Stephen Speer </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>105197</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Patricia Montepeque </NAME>
+    <CRSRESNR>M85</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>130</PREIS>
+    <monto>122.66</monto>
+    <NAMEID>105197</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Miguel Coppola </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-07-01T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>613.3</monto>
+    <NAMEID>164534</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Oleg Stayazhkin </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-09T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>255.32</monto>
+    <NAMEID>162760</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Angus Houston </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-10T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>382.98</monto>
+    <NAMEID>162762</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Mauricio Ohoka </NAME>
+    <CRSRESNR>G07</CRSRESNR>
+    <AN>2012-06-11T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>250.32</monto>
+    <NAMEID>162453</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Giovanna Torres </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162448</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Tomas Mieles </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162450</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Alberto Camargo </NAME>
+    <CRSRESNR>F40</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-27T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>205.32</monto>
+    <NAMEID>80601</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Nancy Varela </NAME>
+    <CRSRESNR>F40</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-27T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>205.32</monto>
+    <NAMEID>164703</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Ezequiel Rodriguez </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-03T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>1269.58</monto>
+    <NAMEID>157005</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Gustavo Chuliver Perez </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-03T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>1269.58</monto>
+    <NAMEID>157008</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Stephen Speer </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>255.32</monto>
+    <NAMEID>161050</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Elsa Ruiz Diaz </NAME>
+    <CRSRESNR>L08</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-20T00:00:00</AB>
+    <PREIS>125</PREIS>
+    <monto>352.98</monto>
+    <NAMEID>163461</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rene Rumbaut </NAME>
+    <CRSRESNR>N03</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>307.98</monto>
+    <NAMEID>164848</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Miller </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>164848</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Cesar Baez Gonzalez </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>450.64</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Frank Ramos </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Pedersen </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Al Brown </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Roberto Rubet </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Amelia Holt </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160505</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Torres </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Gutierrez </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>David Woodruff </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-12T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Pedersen </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Al Brown </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Roberto Rubet </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Amy Holt </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Torres </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Gutierrez </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Miller </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Frank Ramos </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Pedersen </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Al Brown </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Roberto Rubet </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Amelia Holt </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Torres </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Gutierrez </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160853</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Brian Miller </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160847</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Frank Ramos </NAME>
+    <CRSRESNR>F01</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-17T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>160847</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jaime Garcia </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>450.64</monto>
+    <NAMEID>159045</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Felipe Pages </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160175</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Patricia Janiot </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>137.66</monto>
+    <NAMEID>160175</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Gustavo Sorzano </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-19T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>661.59999999999991</monto>
+    <NAMEID>160177</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jorge Enrique Leal </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160178</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Dario Polaco </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160179</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Javier M Agudelo </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160180</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Andres Ramirez Velez </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160181</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Aponte-Tinao </NAME>
+    <CRSRESNR>Y03</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-16T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>275.32</monto>
+    <NAMEID>160182</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Antonio Guevara Badillo </NAME>
+    <CRSRESNR>A87</CRSRESNR>
+    <AN>2012-06-11T00:00:00</AN>
+    <AB>2012-06-14T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>307.98</monto>
+    <NAMEID>109496</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jannette Garcia Velasquez </NAME>
+    <CRSRESNR>A87</CRSRESNR>
+    <AN>2012-06-11T00:00:00</AN>
+    <AB>2012-06-14T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>307.98</monto>
+    <NAMEID>101178</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rodrigo Castellanos </NAME>
+    <CRSRESNR>L05</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-08T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>101178</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Silvia Malasquez </NAME>
+    <CRSRESNR>D05</CRSRESNR>
+    <AN>2012-06-30T00:00:00</AN>
+    <AB>2012-07-02T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>136343</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Bm. Westberry </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-25T00:00:00</AB>
+    <PREIS>155</PREIS>
+    <monto>1237.5599999999997</monto>
+    <NAMEID>163997</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Julian Paz </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>463.29999999999995</monto>
+    <NAMEID>164701</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Gerardo Alberto Duran Quesada </NAME>
+    <CRSRESNR>C47</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>115</PREIS>
+    <monto>107.66</monto>
+    <NAMEID>164701</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Albert Chien </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>163625</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Carmen Luz Perez Piña </NAME>
+    <CRSRESNR>E19</CRSRESNR>
+    <AN>2012-05-27T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>156768</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Hiroshi Narikiyo </NAME>
+    <CRSRESNR>G07</CRSRESNR>
+    <AN>2012-06-08T00:00:00</AN>
+    <AB>2012-06-13T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>563.3</monto>
+    <NAMEID>62034</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Per Moberg </NAME>
+    <CRSRESNR>D09</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-08T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>62034</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jorge Leiman </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>165107</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pedro Antonio Lopez Linares </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-27T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>140</PREIS>
+    <monto>250.64</monto>
+    <NAMEID>165130</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rafael Bautista Plata </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>165132</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Charles Jon Kidd </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>162.66</monto>
+    <NAMEID>166019</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Eduardo Uriarte </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>165519</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Tony Gene Dunlavy </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-13T00:00:00</AN>
+    <AB>2012-06-14T00:00:00</AB>
+    <PREIS>155</PREIS>
+    <monto>140.32</monto>
+    <NAMEID>165519</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME> Shramm </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-14T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>135</monto>
+    <NAMEID>165519</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Donald Wayne Graham </NAME>
+    <CRSRESNR>J01</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>232.66</monto>
+    <NAMEID>160983</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Bettina Mardyks </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>163340</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Michael Eng </NAME>
+    <CRSRESNR>J01</CRSRESNR>
+    <AN>2012-06-19T00:00:00</AN>
+    <AB>2012-06-20T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>163340</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Yasuda Toru </NAME>
+    <CRSRESNR>G07</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-10T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162361</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Lindey Andrew </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-06T00:00:00</AN>
+    <AB>2012-06-07T00:00:00</AB>
+    <PREIS>135</PREIS>
+    <monto>127.66</monto>
+    <NAMEID>162361</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Maria Victoria Cabrera </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>140</PREIS>
+    <monto>375.96</monto>
+    <NAMEID>160801</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jesus Fraga </NAME>
+    <CRSRESNR>J01</CRSRESNR>
+    <AN>2012-06-19T00:00:00</AN>
+    <AB>2012-06-20T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>160801</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Nakano Yoshiaki </NAME>
+    <CRSRESNR>G07</CRSRESNR>
+    <AN>2012-06-07T00:00:00</AN>
+    <AB>2012-06-10T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162371</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Kyung Ah Che </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-29T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>162371</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Chang Woo Kim </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-29T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>164651</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Ki Nam Kim </NAME>
+    <CRSRESNR>M48</CRSRESNR>
+    <AN>2012-06-29T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>112.66</monto>
+    <NAMEID>164651</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Paz </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>125.32</PREIS>
+    <monto>518.61999999999989</monto>
+    <NAMEID>164700</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Valeriy Tolokolnikov </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-14T00:00:00</AN>
+    <AB>2012-06-19T00:00:00</AB>
+    <PREIS>155</PREIS>
+    <monto>701.59999999999991</monto>
+    <NAMEID>162640</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Tatiana Tolokolnikov </NAME>
+    <CRSRESNR>L16</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-19T00:00:00</AB>
+    <PREIS>155</PREIS>
+    <monto>0</monto>
+    <NAMEID>162640</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Francisco Ortega Gil </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>585.95999999999992</monto>
+    <NAMEID>163124</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Angel Serrano Llorente </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>585.95999999999992</monto>
+    <NAMEID>163128</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Carmen Lanza Lopez </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>585.95999999999992</monto>
+    <NAMEID>163129</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Francisco Fernandez de Torres </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>488.29999999999995</monto>
+    <NAMEID>163130</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Julio Molina De la Calle </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>488.29999999999995</monto>
+    <NAMEID>163131</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Miguel Angel Lopez Garcia </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>488.29999999999995</monto>
+    <NAMEID>163132</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pedro Alfonso Vargas </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162900</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rodolfo Gonzalez </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>162904</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Feiyue Ren </NAME>
+    <CRSRESNR>N03</CRSRESNR>
+    <AN>2012-05-30T00:00:00</AN>
+    <AB>2012-06-03T00:00:00</AB>
+    <PREIS>145</PREIS>
+    <monto>260.64</monto>
+    <NAMEID>94442</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Roger De la Hoz Zorro </NAME>
+    <CRSRESNR>G07</CRSRESNR>
+    <AN>2012-06-11T00:00:00</AN>
+    <AB>2012-06-15T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>475.64</monto>
+    <NAMEID>162342</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Carlos Ferreira </NAME>
+    <CRSRESNR>I07</CRSRESNR>
+    <AN>2012-06-19T00:00:00</AN>
+    <AB>2012-06-21T00:00:00</AB>
+    <PREIS>130</PREIS>
+    <monto>310.32</monto>
+    <NAMEID>162360</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Angel Vasquez Recio </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-16T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>585.95999999999992</monto>
+    <NAMEID>163500</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pedro Henriquez Guajardo </NAME>
+    <CRSRESNR>L08</CRSRESNR>
+    <AN>2012-06-20T00:00:00</AN>
+    <AB>2012-06-23T00:00:00</AB>
+    <PREIS>160</PREIS>
+    <monto>457.98</monto>
+    <NAMEID>163803</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Juan David Acosta Salas </NAME>
+    <CRSRESNR>S04</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>163803</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Melissa Oliva </NAME>
+    <CRSRESNR>F40</CRSRESNR>
+    <AN>2012-06-04T00:00:00</AN>
+    <AB>2012-06-10T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>615.95999999999992</monto>
+    <NAMEID>160628</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Ericka Rodriguez </NAME>
+    <CRSRESNR>F40</CRSRESNR>
+    <AN>2012-06-06T00:00:00</AN>
+    <AB>2012-06-08T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>205.32</monto>
+    <NAMEID>34662</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Ezequiel Rodriguez </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-18T00:00:00</AN>
+    <AB>2012-06-24T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>105</monto>
+    <NAMEID>34662</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jens Madsen </NAME>
+    <CRSRESNR>D09</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-02T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>102.66</monto>
+    <NAMEID>34662</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Jose Rodriguez Junco </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-17T00:00:00</AN>
+    <AB>2012-06-22T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>488.29999999999995</monto>
+    <NAMEID>163125</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pablo Moreno </NAME>
+    <CRSRESNR>T20</CRSRESNR>
+    <AN>2012-06-29T00:00:00</AN>
+    <AB>2012-06-30T00:00:00</AB>
+    <PREIS>130</PREIS>
+    <monto>122.66</monto>
+    <NAMEID>163125</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pablo Ernesto Zuppi </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>156985</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Maria Eugenia Crivelini </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-26T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>120</PREIS>
+    <monto>337.98</monto>
+    <NAMEID>156986</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Giorgio Gennari Litta </NAME>
+    <CRSRESNR>V10</CRSRESNR>
+    <AN>2012-06-25T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>140</PREIS>
+    <monto>501.28</monto>
+    <NAMEID>156987</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Luis Torres Emiliano </NAME>
+    <CRSRESNR>E19</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-01T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>0</monto>
+    <NAMEID>156987</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Lina Maria Cataño </NAME>
+    <CRSRESNR>S04</CRSRESNR>
+    <AN>2012-06-01T00:00:00</AN>
+    <AB>2012-06-06T00:00:00</AB>
+    <PREIS>110</PREIS>
+    <monto>513.3</monto>
+    <NAMEID>161704</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Yony Abel De Gracia </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>97.66</monto>
+    <NAMEID>161704</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Rafael Ivan Arrocha Guerra </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>105</PREIS>
+    <monto>97.66</monto>
+    <NAMEID>161704</NAMEID>
+  </GEMCLUB>
+  <GEMCLUB>
+    <NAME>Pascual Stanziola </NAME>
+    <CRSRESNR>J02</CRSRESNR>
+    <AN>2012-06-28T00:00:00</AN>
+    <AB>2012-06-29T00:00:00</AB>
+    <PREIS>125</PREIS>
+    <monto>110.32</monto>
+    <NAMEID>161704</NAMEID>
+  </GEMCLUB>
+</DocumentElement>

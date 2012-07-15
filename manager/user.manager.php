@@ -26,6 +26,9 @@ class UserManager
 				->where("u.email='".$user->name."'");
 			$rows = $q->execute();
 			$cuenta = count($rows);
+			
+			
+			
 		}
 		catch(Exception $e)
 		{
@@ -42,6 +45,18 @@ class UserManager
 				$user->locationId = $auxUser->Location->id;
 				$user->status     = $auxUser->status;
 				$user->id         = $auxUser->id;
+				if ($auxUser->Role->name == "socio"){
+					$q2 = Doctrine_Query::create()
+						->from('profile u')
+						->where("u.email='".$user->name."'");
+					$profile = $q2->execute();
+					$socio = $profile[0];
+					$user->tipo = $socio->tipo;
+					$user->nombre = $socio->nombre;
+					$user->socio_id = $socio->id;
+					$user->creditos = $socio->puntos_disponibles;
+				}
+				
 			}
 		}
 		else

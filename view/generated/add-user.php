@@ -1,6 +1,7 @@
 
 			<form action="crud.php" method="post">
 				<input type="hidden" name="action" value="insert" />
+				<input type="hidden" name="view" value="add-user" />
 			<input type='hidden' name='id' value='' />
 
 <p><b>Email</b></p>

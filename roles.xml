@@ -26,6 +26,10 @@
 		<view read='true' edit='true'>add-tipo</view>
 		<view read='true' edit='true'>list-tipo</view>
 		<view read='true' edit='true'>update-tipo</view>
+		<view read='true' edit='true'>estados-de-cuenta</view>
+		<view read='true' edit='true'>cumpleaneros</view>
+		
+		
 	</role>
 	
 	<role name='socio' >

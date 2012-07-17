@@ -169,7 +169,15 @@
 
 				return "controller.php?view=list-profile";
 			}
+			function GetCumpleanos($validator)
+			{
 
+				$q = Doctrine_Query::create()->from("profile a")->where("MONTH(a.fecha_nacimiento) = '".date('m')."'");
+				$records = $q->execute();
+
+				return $records;
+			}
+			
 			function listRecords($validator)
 			{
 

@@ -12,6 +12,11 @@
 	<view name="list-profile" url="generated/list-profile.php" class="profileDelegate">
 		<getter destination="listprofile">listRecords</getter>
 	</view>
+	
+	<view name="cumpleaneros" url="cumpleanos-mes.php" class="profileDelegate">
+		<getter destination="listprofile">GetCumpleanos</getter>
+	</view>
+	
 	<view name="supervisores" url="generated/list-supervisor.php" class="SupervisorDelegate">
 		<getter destination="listprofile">listRecords</getter>
 	</view>
@@ -25,6 +30,7 @@
 	<view name="list-user" url="generated/list-user.php" class="userDelegate">
 		<getter destination="listuser">listRecords</getter>
 	</view>
+	
 	<view name="update-user" url="generated/update-user.php" class="userDelegate">
 		<getter destination="entity">getuser</getter>
 	</view>
@@ -70,5 +76,12 @@
 	    <getter destination="listpremio">GetPremiosDisponibles</getter>
 	</view>
 	<view name="add-tipo" url="generated/add-tipo.php" class="tipoDelegate"/>
-	<view name="list-tipo" url="generated/list-tipo.php" class="tipoDelegate"><getter destination="listtipo">listRecords</getter></view><view name="update-tipo" url="generated/update-tipo.php" class="tipoDelegate"><getter destination="entity">gettipo</getter></view>
+	<view name="list-tipo" url="generated/list-tipo.php" class="tipoDelegate">
+	    <getter destination="listtipo">listRecords</getter></view>
+	<view name="update-tipo" url="generated/update-tipo.php" class="tipoDelegate">
+	    <getter destination="entity">gettipo</getter>
+	    </view>
+	<view name="estados-de-cuenta" url="estado-cuenta-socios.php" class="ventaDelegate">
+	    <getter destination="listventa">listRecords</getter>
+	</view>
 </views>

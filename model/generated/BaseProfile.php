@@ -11,6 +11,7 @@ Doctrine_Manager::getInstance()->bindComponent('Profile', 'gems');
  * @property string $socio
  * @property string $nombre
  * @property float $revenue_total
+ * @property float $revenue_total_promociones
  * @property float $revenue_disponibles
  * @property float $puntos_disponibles
  * @property timestamp $fecha_nacimiento
@@ -77,6 +78,15 @@ abstract class BaseProfile extends Doctrine_Record
              'autoincrement' => false,
              ));
         $this->hasColumn('revenue_total', 'float', null, array(
+             'type' => 'float',
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => '0',
+             'notnull' => true,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('revenue_total_promociones', 'float', null, array(
              'type' => 'float',
              'fixed' => false,
              'unsigned' => false,

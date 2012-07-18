@@ -1,7 +1,7 @@
 <?php
 
-include '../plugins/Sendgrid/SenGrid_loader.php';
-include '../phputils/sendGridMaker.php';
+include 'plugins/Sendgrid/SendGrid_loader.php';
+include 'phputils/sendGridMaker.php';
 
 class profileDelegate
 {
@@ -151,11 +151,34 @@ class profileDelegate
 			
 		$make = new sendGridMaker();
 		if($sendgrid = $make->getSenGrid() != NULL){
+			
+			$html = "
+					<html>
+					  <head></head>
+					  <body>
+					    <p>Usted estar&acute; identificado con la informaci&oacute; de acceso:<br/><<br/>
+					    correo: $record->email 
+						<br/>
+						contrase&ntilde;a: $random 
+						<br/><br/>
+						La cual le permitirá acumular puntos en sus reservas de habitaciones y eventos.
+						<br/><br/>
+						Agradecemos su confianza y su preferencia en Hotel El Panamá para sus reservas y eventos.
+						<br/><br/>
+						Esperamos disfruten de todos los beneficios que ofrecemos.
+					    <br/><br/>
+					    <i>Importante: Recuerde proporcionar su c&oacute;digo que lo(a) identifica como socio(a) de nuestro Gems Club, al realizar sus
+							reservas de habitaciones o eventos en nuestro Hotel.</i>
+					    </p>
+					  </body>
+					</html>
+					";
+			
 			$mail = new SendGrid\Mail();
 			$mail->addTo($record->$email)->
 					setFrom($GLOBALS["GEMS_EMAIL"])->
 					setSubject("Bienvenida(o) a nuestro Programa de Lealtad Empresarial Gems Club")->
-					setText("Usted estar&acute; identificado con la informaci&oacute; de acceso:
+					/*setText("Usted estar&acute; identificado con la informaci&oacute; de acceso:
 					\n\n 
 					correo: $record->email 
 					\n 
@@ -165,7 +188,8 @@ class profileDelegate
 					\n\n
 					Agradecemos su confianza y su preferencia en Hotel El Panamá para sus reservas y eventos.
 					\n\n
-					Esperamos disfruten de todos los beneficios que ofrecemos.");
+					Esperamos disfruten de todos los beneficios que ofrecemos.");*/
+					setBody($html, 'text/html');
 
 				$sendgrid->smtp->send($mail);
 		}

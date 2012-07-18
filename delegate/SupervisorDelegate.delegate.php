@@ -58,6 +58,7 @@ class SupervisorDelegate
 		  $rows = $q->execute();
 		  if(count($rows)==0){
 		  	
+			
 			  $venta = new venta();
 			  $venta->guest_name = $cliente;
 			  $venta->room = $room;
@@ -68,6 +69,20 @@ class SupervisorDelegate
 			  $venta->rate_revenue = floatval($rate_revenue);
 			  $venta->rate_ammount = floatval($rate_ammount);
 			  $venta->confirmation = $confirmacion;
+
+			  $q = Doctrine_Query::create()->
+					select("porcentaje")->
+					from("Promocion")->
+					where("fecha_inicio <= now() AND now() <= fecha_fin");
+			  $porcentS = $q->execute();
+			  if(count($porcentS)>=1){
+				  $porcentS = $porcentS->toArray();
+				  $porcent = (floatval($porcentS[0]["porcentaje"])/100);
+				  $venta->rate_revenue_promotion = floatval($rate_revenue)+(floatval($rate_revenue)*$porcent);
+			  }else{
+				  $venta->rate_revenue_promotion = floatval($rate_revenue);
+			  }
+			  $rateP = $venta->rate_revenue_promotion;
 			  $venta->save();
 		  	
 			  $socio_bd = Doctrine::getTable('profile')->findOneBysocio($socio);
@@ -75,9 +90,19 @@ class SupervisorDelegate
 			  $socio_bd->revenue_total = $aux + floatval($rate_revenue);
 			  $aux = $socio_bd->revenue_disponibles;
 			  $socio_bd->revenue_disponibles = $aux + floatval($rate_revenue);
+			  //Con Promociones
+			  $auxP = $socio_bd->revenue_total_promociones;
+			  $socio_bd->revenue_total_promociones = $auxP + $rateP;
 			  
-			  if (($aux + floatval($rate_revenue)/1000)>1){
+/*			  if (($aux + floatval($rate_revenue)/1000)>1){
 			  	$total_revenue = floatval($aux) + floatval($rate_revenue);
+				$div_tr = $total_revenue / 1000;
+				$redondeo = floor($div_tr);
+			  	$puntos_redondeados = $redondeo*1000;
+				$socio_bd->puntos_disponibles = $puntos_redondeados;
+			  }*/
+			  if (($aux + floatval($rateP)/1000)>1){
+			  	$total_revenue = floatval($aux) + floatval($rateP);
 				$div_tr = $total_revenue / 1000;
 				$redondeo = floor($div_tr);
 			  	$puntos_redondeados = $redondeo*1000;

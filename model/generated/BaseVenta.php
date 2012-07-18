@@ -18,6 +18,7 @@ Doctrine_Manager::getInstance()->bindComponent('Venta', 'gems');
  * @property string $rate_code
  * @property float $rate_ammount
  * @property float $rate_revenue
+ * @property float $rate_revenue_promotion
  * @property string $confirmation
  * @property string $code_socio
  * 
@@ -118,6 +119,14 @@ abstract class BaseVenta extends Doctrine_Record
              'autoincrement' => false,
              ));
         $this->hasColumn('rate_revenue', 'float', null, array(
+             'type' => 'float',
+             'fixed' => false,
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
+             'autoincrement' => false,
+             ));
+        $this->hasColumn('rate_revenue_promotion', 'float', null, array(
              'type' => 'float',
              'fixed' => false,
              'unsigned' => false,

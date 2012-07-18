@@ -12,6 +12,14 @@
 
 			function insert($validator)
 			{
+				$q = Doctrine_Query::create()->
+					select("porcentaje")->
+					from("Promocion")->
+					where("fecha_inicio <= now() AND now() <= fecha_fin");
+				
+				echo $q;
+				break;
+				
 				$entity = new venta();
 				$entity->profile_id=$validator->getVar("profile_id");
 				$entity->room=$validator->getVar("room");

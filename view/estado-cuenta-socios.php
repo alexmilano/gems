@@ -7,8 +7,8 @@
 	<input type='text' name='codigo' value='' />
 	<input type="submit" name="submit" value="Buscar" />
 </form>
+<a href="estados-de-cuenta">Ver Todos</a>
 <br/>
-
 <?php 
 $monto_total = 0.0;
 $aux = ""; 

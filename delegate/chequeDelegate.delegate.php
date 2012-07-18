@@ -13,8 +13,8 @@
 			function insert($validator)
 			{
 				$entity = new cheque();
-		$entity->nombre=$validator->getVar("nombre");
-		$entity->cheque=$validator->getVar("cheque");
+				$entity->nombre=$validator->getVar("nombre");
+				$entity->cheque=$validator->getVar("cheque");
 				$entity->save();
 
 				return "controller.php?view=list-cheque";

@@ -8,6 +8,13 @@
 	    <fieldset>
 			<legend>Nuevo Supervisor</legend>
 			<div class="clearfix">
+				<label for="nombre">Nombre: </label>
+				<div class="input">
+					<input class="span4" name="nombre" id="nombre" type="text" title="Nombre" />
+					<strong class="error" id="nombreError"></strong>
+				</div>
+			</div>
+			<div class="clearfix">
 				<label for="user">Email: </label>
 				<div class="input">
 					<input class="span4" name="email" id="email" type="text" title="Email address" />

@@ -44,7 +44,7 @@
 			{
 
 				$q = Doctrine_Manager::getInstance()->connection();
-				$result = $q->execute("SELECT c.id, s.socio, s.nombre as nombre_socio, s.puntos_disponibles, p.puntos, p.nombre, p.descripcion, c.status FROM canje as c, premio as p, profile as s WHERE c.status = '".$validator->getVar("status")."' and c.profile_id = s.id");
+				$result = $q->execute("SELECT s.empresa, s.revenue_total, c.id, s.socio, s.nombre as nombre_socio, s.puntos_disponibles, p.puntos, p.nombre, p.descripcion, c.status,c.nombre_cheque FROM canje as c, premio as p, profile as s WHERE p.id = c.premio_id  and c.status = '".$validator->getVar("status")."' and c.profile_id = s.id");
 				
 
 				return $result->fetchAll();;
@@ -53,7 +53,7 @@
 			function GetSocioCanjes($validator)
 			{
 				$q = Doctrine_Manager::getInstance()->connection();
-				$result = $q->execute("SELECT p.puntos, p.nombre, p.descripcion, c.status FROM canje as c, premio as p WHERE c.status = '".$validator->getVar("status")."' and c.profile_id =".$_SESSION['user']->socio_id);
+				$result = $q->execute("SELECT p.puntos, p.nombre, p.descripcion, c.status FROM canje as c, premio as p WHERE p.id = c.premio_id and c.status = '".$validator->getVar("status")."' and c.profile_id =".$_SESSION['user']->socio);
 				
 				
 
@@ -72,13 +72,18 @@
 			function ProcesarCanje($validator)
 			{
 				$id = $validator->getVar("idcanje");
+				$ch = $validator->getVar("cheque");
 
+				$cheque = Doctrine::getTable('cheque')->find($ch);
+
+				
 				$canje = Doctrine::getTable('canje')->find($id);
 				$premio = Doctrine::getTable('premio')->find($canje->premio_id);
 				$socio = Doctrine::getTable('profile')->find($canje->profile_id);
 				if ($socio->puntos_disponibles >= $premio->puntos){
 						$canje->status = "Aceptado";
-					
+						$canje->cheque = $cheque->id;
+						$canje->nombre_cheque = $cheque->cheque;
 						$aux_puntos = $socio->puntos_disponibles;
 						$aux_revenue = $socio->revenue_disponibles;
 						
@@ -90,6 +95,15 @@
 				
 				}
 				return 'list-canje&status=Pendiente';
+			}
+			
+			function GetCheques($validator)
+			{
+
+				$q = Doctrine_Query::create()->from("cheque");
+				$records = $q->execute();
+
+				return $records;
 			}
 
 		}

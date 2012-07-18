@@ -5,17 +5,14 @@ class SupervisorDelegate
 
 	function uploadXML($validator){
 		
-		echo "Upload: " . $_FILES["file"]["name"] . "<br />";
-	    echo "Type: " . $_FILES["file"]["type"] . "<br />";
-	    echo "Size: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
-	    echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
+		$total_errors=0;
 		$OriginalFilename = $FinalFilename = preg_replace('`[^a-z0-9-_.]`i','',$_FILES['file']['name']); 
 		$FileCounter = 1; 
 		while (file_exists( 'docs/xml/'.$FinalFilename )) 
 		  $FinalFilename = $FileCounter++.'_'.$OriginalFilename; 
 	    
 	    move_uploaded_file($_FILES["file"]["tmp_name"],"docs/xml/" . $FinalFilename );
-	    echo "Stored in: " . "docs/xml/" . $FinalFilename;
+	    
 		
 		$doc = new DOMDocument();
         $doc->load( "docs/xml/" . $FinalFilename );
@@ -60,6 +57,7 @@ class SupervisorDelegate
 		
 		  $rows = $q->execute();
 		  if(count($rows)==0){
+		  	
 			  $venta = new venta();
 			  $venta->guest_name = $cliente;
 			  $venta->room = $room;
@@ -101,11 +99,19 @@ class SupervisorDelegate
 			  
 		  }
 		  else{
-		  	echo "Existe el codigo de confirmacion " .  $confirmacion;
+		  	echo "No se agrego la venta nro. $confirmacion porque ya existe este codigo <br/>";
+			$total_errors++;
 		  }
 		  
+		  
+		  
+		  
 		  //echo "$socio , $cliente , $arrival_date , $departure_date , $room , $rate_code , $rate_revenue,  $rate_ammount, $confirmacion<br/>";
-	}
+		}
+		if ($total_errors < 1){
+		  	echo "Se han agregado todas las ventas<br>";
+		 }
+		echo "<a href='nuevo-registro'>Volver</a>";
       	  
 	}
 	function getRoles($validator)
@@ -145,6 +151,11 @@ class SupervisorDelegate
 			$entity->role_id = $validator->getVar("rol");
 			$entity->status = "valido";
 			$entity->save();
+			$usergem = new Usuariogem();
+			$usergem->email=$email;
+			$usergem->role_id = $validator->getVar("rol");
+			$usergem->nombre = $validator->getVar("nombre");
+			$usergem->save();
 		}
 		else
 			$validator->addError('The user "'.$email.'" already exists.');
@@ -186,12 +197,12 @@ class SupervisorDelegate
 
 		}
 
-		return 'controller.php?view=supervisores';
+		return 'controller.php?view=usuarios&rol='.$validator->getVar("rol");;
 	}
 	function listRecords($validator)
 	{
-
-		$q = Doctrine_Query::create()->from("user u")->where("u.role_id = 2");
+		$rol = $validator->getVar('rol');
+		$q = Doctrine_Query::create()->from("usuariogem u")->where("u.role_id = ". $rol);
 		$records = $q->execute();
 
 		return $records;

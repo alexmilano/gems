@@ -7,25 +7,10 @@
 		<view read='true' edit='true'>validate</view>
 		<view read='true' edit='true'>forgot</view>
 		<view read='true' edit='true'>aplicar</view>
-		<view read='true' edit='true'>list-profile</view>
-		<view read='true' edit='true'>show-profile</view>
+		
 		<view read='true' edit='true'>nuevo-supervisor</view>
-		<view read='true' edit='true'>panel-supervisor</view>
-		<view read='true' edit='true'>supervisores</view>
-		<view read='true' edit='true'>nuevo-registro</view>
-		<view read='true' edit='true'>list-venta</view>
-		<view read='true' edit='true'>add-premio</view>
-		<view read='true' edit='true'>list-premio</view>
-		<view read='true' edit='true'>update-premio</view>
-		<view read='true' edit='true'>add-cheque</view>
-		<view read='true' edit='true'>list-cheque</view>
-		<view read='true' edit='true'>update-cheque</view>
-		<view read='true' edit='true'>add-canje</view>
-		<view read='true' edit='true'>list-canje</view>
-		<view read='true' edit='true'>update-canje</view>
-		<view read='true' edit='true'>add-tipo</view>
-		<view read='true' edit='true'>list-tipo</view>
-		<view read='true' edit='true'>update-tipo</view>
+		
+		
 	</role>
 	
 	<role name='socio' >
@@ -35,16 +20,13 @@
 		<view read='true' edit='true'>validate</view>
 		<view read='true' edit='true'>forgot</view>
 		<view read='true' edit='true'>aplicar</view>
-		<view read='true' edit='true'>list-profile</view>
-		<view read='true' edit='true'>show-profile</view>
-		<view read='true' edit='true'>nuevo-supervisor</view>
-		<view read='true' edit='true'>panel-supervisor</view>
-		<view read='true' edit='true'>supervisores</view>
-		<view read='true' edit='true'>panel-socio</view>
-		<view read='true' edit='true'>nuevo-registro</view>
 		<view read='true' edit='true'>canjear</view>
 		<view read='true' edit='true'>mis-canjes</view>
 		<view read='true' edit='true'>list-canje</view>
+		<view read='true' edit='true'>panel-socio</view>
+		<view read='true' edit='true'>estado-de-cuenta</view>
+		
+		
 		
 		
 		
@@ -59,11 +41,28 @@
 		<view read='true' edit='true'>aplicar</view>
 		<view read='true' edit='true'>list-profile</view>
 		<view read='true' edit='true'>show-profile</view>
-		<view read='true' edit='true'>nuevo-supervisor</view>
-		<view read='true' edit='true'>panel-supervisor</view>
-		<view read='true' edit='true'>supervisores</view>
-		<view read='true' edit='true'>panel-socio</view>
 		<view read='true' edit='true'>nuevo-registro</view>
+		<view read='true' edit='true'>list-venta</view>
+		<view read='true' edit='true'>add-premio</view>
+		<view read='true' edit='true'>list-premio</view>
+		<view read='true' edit='true'>update-premio</view>
+		<view read='true' edit='true'>add-cheque</view>
+		<view read='true' edit='true'>list-cheque</view>
+		<view read='true' edit='true'>update-cheque</view>
+		<view read='true' edit='true'>add-canje</view>
+		<view read='true' edit='true'>list-canje</view>
+		<view read='true' edit='true'>update-canje</view>
+		<view read='true' edit='true'>add-tipo</view>
+		<view read='true' edit='true'>list-tipo</view>
+		<view read='true' edit='true'>update-tipo</view>
+		<view read='true' edit='true'>panel-supervisor</view>
+		<view read='true' edit='true'>estados-de-cuenta</view>
+		<view read='true' edit='true'>cumpleaneros</view>
+		<view read='true' edit='true'>add-promocion</view>
+		<view read='true' edit='true'>usuarios</view>
+		<view read='true' edit='true'>list-promocion</view>
+		<view read='true' edit='true'>update-promocion</view>
+		<view read='true' edit='true'>busqueda</view>
 		
 		
 	</role>
@@ -94,5 +93,13 @@
 		<view read='true' edit='true'>update-tipo</view>
 		<view read='true' edit='true'>panel-supervisor</view>
 		<view read='true' edit='true'>panel-admin</view>
+		<view read='true' edit='true'>estados-de-cuenta</view>
+		<view read='true' edit='true'>cumpleaneros</view>
+		<view read='true' edit='true'>add-promocion</view>
+		<view read='true' edit='true'>usuarios</view>
+		<view read='true' edit='true'>list-promocion</view>
+		<view read='true' edit='true'>update-promocion</view>
+		<view read='true' edit='true'>busqueda</view>
+		
 	</role>
 </roles>

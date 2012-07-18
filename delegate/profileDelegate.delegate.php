@@ -5,16 +5,16 @@ include '../phputils/sendGridMaker.php';
 
 class profileDelegate
 {
-	
-	public function profileDelegate()
-	{
 
+	public function profileDelegate(){
 		return "";
 	}
+	
 	function getCodigo($codigo){
 		$records = Doctrine::getTable('profile')->findOneBysocio($codigo);
 		return $records;
 	}
+	
 	function insert($validator)
 	{
 		$email = $validator->getVar("email");
@@ -41,7 +41,7 @@ class profileDelegate
 			$gc = $this->getCodigo($codigo);
 			while ( $gc != NULL){
 				$codigo = $first_letter . rand (0,99);
-				$gc = getCodigo($codigo);
+				$gc = $this->getCodigo($codigo);
 			}
 				
 			$entity = new profile();
@@ -72,10 +72,9 @@ class profileDelegate
 			$entity->gustos_bebida=$validator->getVar("gustos_bebida");
 			$entity->gustos_deportes=$validator->getVar("gustos_deportes");
 			$entity->recibo_estado_cuenta=$validator->getVar("recibo_estado_cuenta");
-			$entity->supervisor=-1;
+			$entity->supervisor = -1;
 			$entity->fecha_inscripcion= date('Y-m-d');
 			$entity->user_id=$user->id;
-			
 			$sMaker = new sendGridMaker();
 			if($sendgrid = $sMaker->getSenGrid() != NULL){
 				$mail = new SendGrid\Mail();
@@ -83,25 +82,25 @@ class profileDelegate
 						setFrom($GLOBALS["GEMS_EMAIL"])->
 						setSubject("Inscripci&oacute;n Gems Club")->
 						setText("Gracias por preferirnos, estamos procesando su solicitud, en cuanto haya sido tramitada usted
-recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo electr&oacute;nico.");
+						recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo electr&oacute;nico.");
 
 				$sendgrid->smtp->send($mail);
 			}
 			
 			$entity->save();
-		
+				
 		}
 		else
 		{
 			$validator->addError('El usuario '.$email.' ya esta en el sistema.');
 			echo 'El usuario '.$email.' ya esta en el sistema.';
 		}
-
+				
 		return "validate";
 	}
 
-	function update($validator)
-	{
+	function update($validator){
+		
 		$id = $validator->getVar("id");$record = Doctrine::getTable("profile")->find($id);
     	$record->nombre=$validator->getVar("nombre");
     	$record->fecha_nacimiento=$validator->getVar("fecha_nacimiento");
@@ -134,18 +133,22 @@ recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo ele
 		return "controller.php?view=list-profile&idprofile=".$validator->getVar("id");
 	}
 
-	function cambiarStatus($validator)
-	{
+	function cambiarStatus($validator){
+		
 		$id = $validator->getVar("id");
 		$status = $validator->getVar("status");
 		$record = Doctrine::getTable("profile")->find($id);
 		$user = Doctrine::getTable("user")->find($record->user_id);
-    	$user->status = $status;
+		$record->supervisor=$_SESSION['user']->gem_id;
+		$user->status = $status;
 		$record->status = $status;
 		$random = rand(0,999999999);
 		$pass = sha1($random);
 		$user->password= $pass;
+		$user->save();
+		$record->save();
 		
+			
 		$make = new sendGridMaker();
 		if($sendgrid = $make->getSenGrid() != NULL){
 			$mail = new SendGrid\Mail();
@@ -194,8 +197,8 @@ recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo ele
 		
 		return "controller.php?view=list-profile&status=pendiente";
 	}
-	function delete($validator)
-	{
+
+	function delete($validator){
 		$id = $validator->getVar("id");
 
 		$q = Doctrine_Query::create()->delete("profile a")->where("a.id = ".$id);
@@ -203,9 +206,16 @@ recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo ele
 
 		return "controller.php?view=list-profile";
 	}
-
-	function listRecords($validator)
-	{
+	
+	function GetCumpleanos($validator){
+	
+		$q = Doctrine_Query::create()->from("profile a")->where("MONTH(a.fecha_nacimiento) = '".date('m')."'");
+		$records = $q->execute();
+	
+		return $records;
+	}
+			
+	function listRecords($validator){
 
 		$q = Doctrine_Query::create()->from("profile a")->where("a.status = '". $validator->getVar('status') . "'");
 		$records = $q->execute();
@@ -213,13 +223,12 @@ recibir&aacute; su c&oacute;digo de socia y su contrase&ntilde;a a su correo ele
 		return $records;
 	}
 
-	function getprofile($validator)
-	{
+	function getprofile($validator){
 		$id = $validator->getVar("idprofile");
 
 		$records = Doctrine::getTable('profile')->find($id);
 
-		return $records;
+			return $records;
 	}
 
 }

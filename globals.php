@@ -17,6 +17,13 @@ $GLOBALS["ADMIN_VIEW"] = "panel-admin";
 
 $GLOBALS["DEFAULT_USER"] = "anonymus";
 
+/*----SENDGRID CREDENTIALS----*/
+
+$GLOBALS["SENGRID_USERNAME"] = "";
+$GLOBALS["SENGRID_PASSWORD"] = "";
+
+/*----END OF SENDGRID CREDENTIALS----*/
+	
 /*--------END OF THE MANDATORY DEFINITIONS----------*/
 
 

@@ -39,7 +39,7 @@
 					$gc = $this->getCodigo($codigo);
 					while ( $gc != NULL){
 						$codigo = $first_letter . rand (0,99);
-						$gc = getCodigo($codigo);
+						$gc = $this->getCodigo($codigo);
 					}
 						
 					$entity = new profile();
@@ -70,7 +70,7 @@
 					$entity->gustos_bebida=$validator->getVar("gustos_bebida");
 					$entity->gustos_deportes=$validator->getVar("gustos_deportes");
 					$entity->recibo_estado_cuenta=$validator->getVar("recibo_estado_cuenta");
-					$entity->supervisor=-1;
+					$entity->supervisor = -1;
 					$entity->fecha_inscripcion= date('Y-m-d');
 					$entity->user_id=$user->id;
 					$entity->save();
@@ -127,6 +127,7 @@
 				$status = $validator->getVar("status");
 				$record = Doctrine::getTable("profile")->find($id);
 				$user = Doctrine::getTable("user")->find($record->user_id);
+				$record->supervisor=$_SESSION['user']->gem_id;
 		    	$user->status = $status;
 				$record->status = $status;
 				$random = rand(0,999999999);

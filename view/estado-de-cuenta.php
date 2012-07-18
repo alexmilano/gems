@@ -1,13 +1,5 @@
 <h1>Estado de cuenta de socios</h1>
 <br/>
-<form action="crud.php" method="post">
-<p><b>Codigo:</b></p>
-	<input type="hidden" name="action" value="Buscar" />
-	<input type="hidden" name="view" value="busqueda" />
-	<input type='text' name='codigo' value='' />
-	<input type="submit" name="submit" value="Buscar" />
-</form>
-<br/>
 
 <?php 
 $monto_total = 0.0;

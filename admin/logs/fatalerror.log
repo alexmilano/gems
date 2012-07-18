@@ -138,3 +138,10 @@
 [2012/07/15 09:49:07] User role: socio. This role has no priviledges for this view mis-canjes
 [2012/07/15 10:24:15] The view "list-canjes" has not been defined bindings.xml
 [2012/07/15 10:24:32] User role: socio. This role has no priviledges for this view list-canje
+[2012/07/17 09:56:33] User role: admin. This role has no priviledges for this view estados-de-cuenta
+[2012/07/17 10:07:18] User role: socio. This role has no priviledges for this view panel-admin
+[2012/07/17 11:06:36] The view "list-supervisor" has not been defined bindings.xml
+[2012/07/17 11:07:18] User role: admin. This role has no priviledges for this view usuarios
+[2012/07/17 11:16:47] The view "cumpleanos" has not been defined bindings.xml
+[2012/07/17 11:28:33] The view "dashboard-supervisor" has not been defined bindings.xml
+[2012/07/18 12:39:58] User role: socio. This role has no priviledges for this view estado-de-cuenta

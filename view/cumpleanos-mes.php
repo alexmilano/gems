@@ -17,7 +17,7 @@
 				<td><?php echo $record->nombre; ?></td>
 				<td><?php echo $record->telefono; ?></td>
 				<td><?php echo $record->email; ?></td>
-				<td><?php echo date('d-m-Y',strtotime(preg_replace('#/#','-',$record->fecha_nacimiento)));  ?></td>
+				<td><?php echo date('d-m',strtotime(preg_replace('#/#','-',$record->fecha_nacimiento)));  ?></td>
 				</tr>
 			<?php } ?>
 		</table>

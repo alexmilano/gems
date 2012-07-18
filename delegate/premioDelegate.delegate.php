@@ -55,10 +55,10 @@
 				$premio = Doctrine::getTable('premio')->find($id);
 				$canje = new Canje();
 				$canje->premio_id = $id;
-				$canje->profile_id = $_SESSION['user']->socio_id;
+				$canje->profile_id = $_SESSION['user']->socio;
 				$canje->status = "Pendiente";
 				$canje->save();
-				return 'mis-canjes';
+				return 'mis-canjes&status=Pendiente';
 				
 			}
 			

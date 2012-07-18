@@ -53,8 +53,17 @@ class UserManager
 					$socio = $profile[0];
 					$user->tipo = $socio->tipo;
 					$user->nombre = $socio->nombre;
-					$user->socio_id = $socio->id;
+					$user->socio_id = $socio->socio;
+					$user->socio = $socio->id;
 					$user->creditos = $socio->puntos_disponibles;
+				}else{
+					$q2 = Doctrine_Query::create()
+						->from('usuariogem u')
+						->where("u.email='".$user->name."'");
+					$profile = $q2->execute();
+					$socio = $profile[0];
+					$user->nombre = $socio->nombre;
+					$user->gem_id = $socio->id;
 				}
 				
 			}

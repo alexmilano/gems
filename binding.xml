@@ -17,7 +17,7 @@
 		<getter destination="listprofile">GetCumpleanos</getter>
 	</view>
 	
-	<view name="supervisores" url="generated/list-supervisor.php" class="SupervisorDelegate">
+	<view name="usuarios" url="generated/list-supervisor.php" class="SupervisorDelegate">
 		<getter destination="listprofile">listRecords</getter>
 	</view>
 	<view name="update-profile" url="generated/update-profile.php" class="profileDelegate">
@@ -49,6 +49,7 @@
 	<view name="add-canje" url="generated/add-canje.php" class="canjeDelegate"/>
 	<view name="list-canje" url="generated/list-canje.php" class="canjeDelegate">
 	    <getter destination="listcanje">listRecords</getter>
+	    <getter destination="cheques">GetCheques</getter>
 	</view>
 	<view name="mis-canjes" url="socio-canjes.php" class="canjeDelegate">
 	    <getter destination="listcanje">GetSocioCanjes</getter>
@@ -75,13 +76,27 @@
 	<view name="canjear" url="canjear.php" class="premioDelegate">
 	    <getter destination="listpremio">GetPremiosDisponibles</getter>
 	</view>
+	
 	<view name="add-tipo" url="generated/add-tipo.php" class="tipoDelegate"/>
 	<view name="list-tipo" url="generated/list-tipo.php" class="tipoDelegate">
 	    <getter destination="listtipo">listRecords</getter></view>
 	<view name="update-tipo" url="generated/update-tipo.php" class="tipoDelegate">
 	    <getter destination="entity">gettipo</getter>
 	    </view>
+	<view name="estado-de-cuenta" url="estado-de-cuenta.php" class="ventaDelegate">
+	    <getter destination="listventa">GetEstadoCuenta</getter>
+	</view>
 	<view name="estados-de-cuenta" url="estado-cuenta-socios.php" class="ventaDelegate">
 	    <getter destination="listventa">listRecords</getter>
 	</view>
-</views>
+	
+	<view name="busqueda" url="estado-cuenta-socios.php" class="ventaDelegate">
+	    <getter destination="listventa">GetEstadoCuentaByUser</getter>
+	</view>
+	<view name="add-promocion" url="generated/add-promocion.php" class="promocionDelegate"/>
+	<view name="list-promocion" url="generated/list-promocion.php" class="promocionDelegate">
+	    <getter destination="listpromocion">listRecords</getter></view>
+	<view name="update-promocion" url="generated/update-promocion.php" class="promocionDelegate">
+	    <getter destination="entity">getpromocion</getter></view>
+	    
+	    </views>

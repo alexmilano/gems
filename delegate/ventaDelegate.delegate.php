@@ -68,10 +68,33 @@
 				
 
 				return $result->fetchAll();;
-				//$q = Doctrine_Query::create()->from("venta");
-				//$records = $q->execute();
+			}
+			
+			function GetEstadoCuenta($validator)
+			{
+				$q = Doctrine_Manager::getInstance()->connection();
+				$result = $q->execute("SELECT s.*, v.* From profile as s, venta as v where s.socio = '".$_SESSION['user']->socio_id."' and v.code_socio = '".$_SESSION['user']->socio_id."' ORDER BY v.code_socio");
+				
+				
 
-				//return $records;
+				return $result->fetchAll();;
+			}
+			
+			function GetEstadoCuentaByUser($validator)
+			{
+				$q = Doctrine_Manager::getInstance()->connection();
+				$result = $q->execute("SELECT s.*, v.* From profile as s, venta as v where s.socio = '".$validator->getVar("codigo")."' and v.code_socio = '".$validator->getVar("codigo")."' ORDER BY v.code_socio");
+				
+				
+
+				return $result->fetchAll();;
+			}
+			
+			function Buscar($validator)
+			{
+				
+
+				return "busqueda&codigo=".$validator->getVar("codigo");
 			}
 
 			function getventa($validator)
